@@ -1,0 +1,154 @@
+[1/1/2000][0:2:37]syscom_man: New FW received, waiting managers
+[1/1/2000][0:2:37]syscom_man: Current FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[1/1/2000][0:2:49]srv_man: modem initialization breaking
+[1/1/2000][0:2:49]srv_man: manager deinit, waiting configurator fall asleep
+[1/1/2000][0:2:50]srv_man: ready for sleep
+[1/1/2000][0:2:50]syscom_man: Restart...
+
+[1/1/2000][0:2:53]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[1/1/2000][0:2:53]need to update the firmware, fname "FIRMWARE"
+[1/1/2000][0:2:53]check firmware file...
+[1/1/2000][0:2:57]firmware file is valid
+[1/1/2000][0:2:57]start erasing mcu flash, start addr=0x8020000, page=16, end addr=0x80635C0, page=49
+[1/1/2000][0:2:58]erase mcu flash ok
+[1/1/2000][0:2:58]start mcu memory flashing...
+[1/1/2000][0:3:5]mcu memory flashing ok
+[1/1/2000][0:3:5]check application image crc...
+[1/1/2000][0:3:6]application image crc is ok
+[1/1/2000][0:3:6]jump to application...
+[1/1/2000][0:3:55]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[1/1/2000][0:3:55]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Sep 22 2023 14:47:58
+[1/1/2000][0:3:55]syscom_man: Firmware upd succesful
+[1/1/2000][0:3:56]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (318 ms)
+[1/1/2000][0:3:56]signal_man: LPWRRST: 0, SFTRST: 1, PORRST: 0, PINRST: 0, BORRST: 0
+[1/1/2000][0:3:56]srv_man: waking up...
+[1/1/2000][0:3:59]signalman_subtask: ready to work...
+[1/1/2000][0:3:59]can_subtask: ready to work...
+[1/1/2000][0:3:59]CAN1 err: no error (0)
+[1/1/2000][0:3:59]CAN2 err: no error (0)
+[1/1/2000][0:3:59]CAN1: hw settings updated
+[1/1/2000][0:3:59]CAN2: hw settings updated
+[1/1/2000][0:4:0]CAN1 err: no error (0)
+[1/1/2000][0:4:0]CAN2 err: no error (0)
+[1/1/2000][0:4:1]srv_man: turning on modem (sim id 0)...
+[1/1/2000][0:4:22]srv_man: modem ready
+[1/1/2000][0:4:23]srv_man: modem imei: 862798060730500
+[1/1/2000][0:4:23]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[1/1/2000][0:4:23]srv_man: iccid1: 8970177000009409254
+[1/1/2000][0:5:28]srv_man: COPS config ok at 55618 ms
+[1/1/2000][0:5:29]srv_man: apn settings (sim id=0), "internet", "", "" applied
+[1/1/2000][0:5:29]srv_man: Reg status changed: Unknown (4) -> Registered, roaming (5)
+[1/1/2000][0:5:29]srv_man: AcT changed: Unknown (1) -> UTRAN (2)
+[1/1/2000][0:5:29]srv_man: Mobile codes changed: MCC=250, MNC=20
+[1/1/2000][0:5:30]srv_man: new settings, server id: 1, addr: nl.gpsgsm.org:20332, type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[1/1/2000][0:5:30]srv_man: new settings, server id: 2, addr: 10.77.60.254:33001, type: egts, conn_period: 0 minutes, user_terminal_addr: 100010
+[1/1/2000][0:5:30]srv_man: new settings, server id: 3, addr: , type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[1/1/2000][0:5:30]srv_man: new settings, server id: 4, addr: 89.189.183.233:5604, type: vega, conn_period: 0 minutes, user_terminal_addr: 0
+[1/1/2000][0:5:31]srv_man: save backup settings: not support
+[1/1/2000][0:5:33]srv_man: Reg status changed: Registered, roaming (5) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:5:46]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Not registered, ME is currently not searching for new operator (0)
+[1/1/2000][0:6:34]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Registration denied (3)
+[1/1/2000][0:6:35]srv_man: Mobile codes changed: MCC=250, MNC=1
+[1/1/2000][0:6:35]srv_man: AcT changed: UTRAN (2) -> GSM (0)
+[1/1/2000][0:6:36]srv_man: simcard id changed to 1 by "registration denied/ not searching operator", restart manager
+[1/1/2000][0:6:49]srv_man: turning on modem (sim id 1)...
+[1/1/2000][0:7:55]srv_man: sim (id 1) or call or sms ready err
+[1/1/2000][0:8:8]srv_man: turning on modem (sim id 0)...
+[1/1/2000][0:8:28]srv_man: modem ready
+[1/1/2000][0:8:29]srv_man: modem imei: 862798060730500
+[1/1/2000][0:8:30]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[1/1/2000][0:8:30]srv_man: iccid1: 8970177000009409254
+[1/1/2000][0:9:31]srv_man: COPS config ok at 51348 ms
+[1/1/2000][0:9:31]srv_man: apn settings (sim id=0), "internet", "", "" applied
+[1/1/2000][0:9:31]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:9:32]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:9:32]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:9:33]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:9:34]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:9:35]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Registered, roaming (5)
+[1/1/2000][0:9:35]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:9:35]srv_man: Mobile codes changed: MCC=250, MNC=99
+[1/1/2000][0:9:49]srv_man: Reg status changed: Registered, roaming (5) -> Registration denied (3)
+[1/1/2000][0:9:50]srv_man: simcard id changed to 1 by "registration denied/ not searching operator", restart manager
+[1/1/2000][0:10:3]srv_man: turning on modem (sim id 1)...
+[1/1/2000][0:11:9]srv_man: sim (id 1) or call or sms ready err
+[1/1/2000][0:11:22]srv_man: turning on modem (sim id 0)...
+[1/1/2000][0:11:42]srv_man: modem ready
+[1/1/2000][0:11:43]srv_man: modem imei: 862798060730500
+[1/1/2000][0:11:43]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[1/1/2000][0:11:43]srv_man: iccid1: 8970177000009409254
+[22/9/2023][15:58:27]srv_man: COPS config ok at 57514 ms
+[22/9/2023][15:58:27]srv_man: apn settings (sim id=0), "internet", "", "" applied
+[22/9/2023][15:58:27]srv_man: Reg status changed: Unknown (4) -> Registered, roaming (5)
+[22/9/2023][15:58:27]srv_man: AcT changed: Unknown (1) -> UTRAN (2)
+[22/9/2023][15:58:27]srv_man: Mobile codes changed: MCC=250, MNC=20
+[22/9/2023][15:58:30]srv_man: Reg status changed: Registered, roaming (5) -> Not registered, but MT is currently searching a new operator to register to (2)
+[22/9/2023][15:58:31]syscom_man: command gnss coold start
+[22/9/2023][15:58:31]gps_man: cold start cmd recv
+[22/9/2023][15:58:31]gps_man: Start
+[22/9/2023][15:58:40]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Not registered, ME is currently not searching for new operator (0)
+[22/9/2023][15:59:49]srv_man: conn_fail_counters overflow, restart manager with sim id 1
+[22/9/2023][16:0:2]srv_man: turning on modem (sim id 1)...
+[22/9/2023][16:1:8]srv_man: sim (id 1) or call or sms ready err
+[22/9/2023][16:1:21]srv_man: turning on modem (sim id 0)...
+[22/9/2023][16:1:42]srv_man: modem ready
+[22/9/2023][16:1:42]srv_man: modem imei: 862798060730500
+[22/9/2023][16:1:43]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[22/9/2023][16:1:43]srv_man: iccid1: 8970177000009409254
+[22/9/2023][16:3:39]srv_man: COPS config ok at 106086 ms
+[22/9/2023][16:3:39]srv_man: apn settings (sim id=0), "internet", "", "" applied
+[22/9/2023][16:3:39]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[22/9/2023][16:3:39]srv_man: Mobile codes changed: MCC=250, MNC=1
+[22/9/2023][16:3:47]srv_man: Reg status changed: Unknown (4) -> Registration denied (3)
+[22/9/2023][16:3:47]srv_man: simcard id changed to 1 by "registration denied/ not searching operator", restart manager
+[22/9/2023][16:4:1]srv_man: turning on modem (sim id 1)...
+[22/9/2023][16:5:7]srv_man: sim (id 1) or call or sms ready err
+[22/9/2023][16:5:20]srv_man: turning on modem (sim id 0)...
+[22/9/2023][16:5:40]srv_man: modem ready
+[22/9/2023][16:5:41]srv_man: modem imei: 862798060730500
+[22/9/2023][16:5:41]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[22/9/2023][16:5:41]srv_man: iccid1: 8970177000009409254
+[22/9/2023][16:6:50]srv_man: COPS config ok at 58839 ms
+[22/9/2023][16:6:50]srv_man: apn settings (sim id=0), "internet", "", "" applied
+[22/9/2023][16:6:51]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[22/9/2023][16:6:51]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[22/9/2023][16:6:51]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[22/9/2023][16:6:52]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[22/9/2023][16:6:52]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[22/9/2023][16:6:53]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[22/9/2023][16:6:53]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[22/9/2023][16:6:55]srv_man: Reg status changed: Unknown (4) -> Registered, roaming (5)
+[22/9/2023][16:6:55]srv_man: Mobile codes changed: MCC=250, MNC=99
+[22/9/2023][16:7:18]srv_man: Reg status changed: Registered, roaming (5) -> Registration denied (3)
+[22/9/2023][16:7:19]srv_man: simcard id changed to 1 by "registration denied/ not searching operator", restart manager
+[22/9/2023][16:7:32]srv_man: turning on modem (sim id 1)...
+[22/9/2023][16:8:38]srv_man: sim (id 1) or call or sms ready err
+[22/9/2023][16:8:51]srv_man: turning on modem (sim id 0)...
+[22/9/2023][16:9:11]srv_man: modem ready
+[22/9/2023][16:9:12]srv_man: modem imei: 862798060730500
+[22/9/2023][16:9:12]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[22/9/2023][16:9:13]srv_man: iccid1: 8970177000009409254
+[22/9/2023][16:10:23]srv_man: COPS config ok at 60505 ms
+[22/9/2023][16:10:23]srv_man: apn settings (sim id=0), "internet", "", "" applied
+[22/9/2023][16:10:23]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[22/9/2023][16:10:23]srv_man: Mobile codes changed: MCC=250, MNC=1
+[22/9/2023][16:10:32]srv_man: Reg status changed: Unknown (4) -> Registration denied (3)
+[22/9/2023][16:10:32]srv_man: simcard id changed to 1 by "registration denied/ not searching operator", restart manager
+[22/9/2023][16:10:46]srv_man: turning on modem (sim id 1)...
+[22/9/2023][16:11:51]srv_man: sim (id 1) or call or sms ready err
+[22/9/2023][16:12:5]srv_man: turning on modem (sim id 0)...
+[22/9/2023][16:12:25]srv_man: modem ready
+[22/9/2023][16:12:25]srv_man: modem imei: 862798060730500
+[22/9/2023][16:12:26]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[22/9/2023][16:12:26]srv_man: iccid1: 8970177000009409254
+[22/9/2023][16:13:35]srv_man: COPS config ok at 59685 ms
+[22/9/2023][16:13:36]srv_man: apn settings (sim id=0), "internet", "", "" applied
+[22/9/2023][16:13:36]srv_man: Reg status changed: Unknown (4) -> Registered, roaming (5)
+[22/9/2023][16:13:36]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[22/9/2023][16:13:36]srv_man: Mobile codes changed: MCC=250, MNC=2
+[22/9/2023][16:13:45]srv_man: Reg status changed: Registered, roaming (5) -> Registration denied (3)
+[22/9/2023][16:13:46]srv_man: Reg status changed: Registration denied (3) -> Not registered, ME is currently not searching for new operator (0)
+[22/9/2023][16:13:47]srv_man: AcT changed: GSM (0) -> Unknown
+[22/9/2023][16:14:14]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Not registered, but MT is currently searching a new operator to register to (2)
+[22/9/2023][16:14:15]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Registered, roaming (5)
+[22/9/2023][16:14:16]srv_man: AcT changed: Unknown -> GSM (0)
