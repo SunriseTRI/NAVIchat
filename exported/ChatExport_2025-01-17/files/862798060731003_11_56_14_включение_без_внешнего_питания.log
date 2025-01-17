@@ -1,0 +1,1875 @@
+[1/1/2000][0:1:12]syscom_man: New FW received, waiting managers
+[1/1/2000][0:1:12]syscom_man: Current FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[1/1/2000][0:1:18]srv_man: sim (id 0) or call or sms ready err
+[1/1/2000][0:1:31]srv_man: modem initialization breaking
+[1/1/2000][0:1:32]srv_man: manager deinit, waiting configurator fall asleep
+[1/1/2000][0:1:32]srv_man: ready for sleep
+[1/1/2000][0:1:32]syscom_man: Restart...
+
+[1/1/2000][0:1:35]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[1/1/2000][0:1:35]need to update the firmware, fname "FIRMWARE"
+[1/1/2000][0:1:35]check firmware file...
+[1/1/2000][0:1:39]firmware file is valid
+[1/1/2000][0:1:39]start erasing mcu flash, start addr=0x8020000, page=16, end addr=0x80630B0, page=49
+[1/1/2000][0:1:40]erase mcu flash ok
+[1/1/2000][0:1:40]start mcu memory flashing...
+[1/1/2000][0:1:47]mcu memory flashing ok
+[1/1/2000][0:1:47]check application image crc...
+[1/1/2000][0:1:48]application image crc is ok
+[1/1/2000][0:1:48]jump to application...
+[1/1/2000][0:1:52]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[1/1/2000][0:1:52]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[1/1/2000][0:1:52]syscom_man: Firmware upd succesful
+[1/1/2000][0:1:52]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (318 ms)
+[1/1/2000][0:1:53]srv_man: waking up...
+[1/1/2000][0:1:53]signal_man: LPWRRST: 0, SFTRST: 1, PORRST: 0, PINRST: 0, BORRST: 0
+[1/1/2000][0:1:55]signalman_subtask: ready to work...
+[1/1/2000][0:1:55]can_subtask: ready to work...
+[1/1/2000][0:1:55]CAN1 err: no error (0)
+[1/1/2000][0:1:56]CAN2 err: no error (0)
+[1/1/2000][0:1:56]CAN1: hw settings updated
+[1/1/2000][0:1:56]CAN2: hw settings updated
+[1/1/2000][0:1:56]CAN1 err: no error (0)
+[1/1/2000][0:1:56]CAN2 err: no error (0)
+[1/1/2000][0:1:58]srv_man: turning on modem (sim id 0)...
+[1/1/2000][0:2:5]signal_man: ext pwr changed to "low"
+
+[1/1/2000][0:0:2]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[1/1/2000][0:0:2]no need to update the firmware
+[1/1/2000][0:0:3]check application image crc...
+[1/1/2000][0:0:3]application image crc is ok
+[1/1/2000][0:0:3]jump to application...
+
+[1/1/2000][0:2:33]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[1/1/2000][0:2:33]no need to update the firmware
+[1/1/2000][0:2:33]check application image crc...
+[1/1/2000][0:2:33]application image crc is ok
+[1/1/2000][0:2:33]jump to application...
+[1/1/2000][0:2:37]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[1/1/2000][0:2:37]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[1/1/2000][0:2:37]syscom_man: Normal start
+[1/1/2000][0:2:38]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (313 ms)
+[1/1/2000][0:2:38]srv_man: waking up...
+[1/1/2000][0:2:38]signal_man: LPWRRST: 0, SFTRST: 0, PORRST: 0, PINRST: 1, BORRST: 0
+[1/1/2000][0:2:38]signalman_subtask: ready to work...
+[1/1/2000][0:2:39]can_subtask: ready to work...
+[1/1/2000][0:2:39]CAN1: hw settings updated
+[1/1/2000][0:2:39]CAN2: hw settings updated
+[1/1/2000][0:2:39]CAN1 err: no error (0)
+[1/1/2000][0:2:39]CAN2 err: no error (0)
+[1/1/2000][0:2:43]srv_man: turning on modem (sim id 0)...
+[1/1/2000][0:3:48]srv_man: sim (id 0) or call or sms ready err
+[1/1/2000][0:4:1]srv_man: turning on modem (sim id 1)...
+[1/1/2000][0:5:6]srv_man: sim (id 1) or call or sms ready err
+
+[1/1/2000][0:0:2]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[1/1/2000][0:0:2]no need to update the firmware
+[1/1/2000][0:0:3]check application image crc...
+[1/1/2000][0:0:3]application image crc is ok
+[1/1/2000][0:0:3]jump to application...
+[1/1/2000][0:0:7]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[1/1/2000][0:0:7]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[1/1/2000][0:0:7]syscom_man: Normal start
+[1/1/2000][0:0:7]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (317 ms)
+[1/1/2000][0:0:8]srv_man: waking up...
+[1/1/2000][0:0:8]signal_man: LPWRRST: 0, SFTRST: 0, PORRST: 0, PINRST: 0, BORRST: 0
+[1/1/2000][0:0:8]syscom_man: Scenario 0 make call to authorized number 1
+[1/1/2000][0:0:8]syscom_man: Scenario 0 send sms to authorized number 2 success
+[1/1/2000][0:0:9]signal_man: ext pwr changed to "low"
+[1/1/2000][0:0:9]can_subtask: ready to work...
+[1/1/2000][0:0:9]signalman_subtask: ready to work...
+[1/1/2000][0:0:9]CAN1: hw settings updated
+[1/1/2000][0:0:9]CAN2: hw settings updated
+[1/1/2000][0:0:9]CAN1 err: no error (0)
+[1/1/2000][0:0:9]CAN2 err: no error (0)
+[1/1/2000][0:0:13]srv_man: turning on modem (sim id 0)...
+[1/1/2000][0:0:26]syscom_man: New SETTINGS received
+[1/1/2000][0:0:27]syscom_man: total settings: 660, warn size: 0, not found: 0, bad size: 0
+[1/1/2000][0:0:40]srv_man: status pin hi level signal err
+[1/1/2000][0:0:48]srv_man: turning on modem (sim id 0)...
+
+[1/1/2000][0:1:18]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[1/1/2000][0:1:18]no need to update the firmware
+[1/1/2000][0:1:19]check application image crc...
+[1/1/2000][0:1:19]application image crc is ok
+[1/1/2000][0:1:19]jump to application...
+[1/1/2000][0:1:23]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[1/1/2000][0:1:23]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[1/1/2000][0:1:23]syscom_man: Normal start
+[1/1/2000][0:1:24]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (313 ms)
+[1/1/2000][0:1:24]srv_man: waking up...
+[1/1/2000][0:1:24]signal_man: LPWRRST: 0, SFTRST: 0, PORRST: 1, PINRST: 1, BORRST: 1
+[1/1/2000][0:1:24]signalman_subtask: ready to work...
+[1/1/2000][0:1:24]can_subtask: ready to work...
+[1/1/2000][0:1:25]CAN1: hw settings updated
+[1/1/2000][0:1:25]CAN2: hw settings updated
+[1/1/2000][0:1:25]CAN1 err: no error (0)
+[1/1/2000][0:1:25]CAN2 err: no error (0)
+[1/1/2000][0:1:29]srv_man: turning on modem (sim id 0)...
+[1/1/2000][0:1:49]srv_man: modem ready
+[1/1/2000][0:1:50]srv_man: modem imei: 862798060731003
+[1/1/2000][0:1:50]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[1/1/2000][0:1:50]srv_man: iccid1: 8970199210584322533
+[1/1/2000][0:2:1]srv_man: COPS config ok at 951 ms
+[1/1/2000][0:2:1]srv_man: apn settings (sim id=0), "", "", "" applied
+[1/1/2000][0:2:1]srv_man: Reg status changed: Unknown (4) -> Registered, home network (1)
+[1/1/2000][0:2:2]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:2:2]srv_man: Mobile codes changed: MCC=250, MNC=99
+[1/1/2000][0:2:2]srv_man: new settings, server id: 1, addr: 1.1.1.1:11111, type: wips, conn_period: 0 minutes, user_terminal_addr: 0
+[1/1/2000][0:2:2]srv_man: new settings, server id: 2, addr: nl.gpsgsm.org:20629, type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[1/1/2000][0:2:2]srv_man: new settings, server id: 3, addr: , type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[1/1/2000][0:2:2]srv_man: new settings, server id: 4, addr: 89.189.183.233:5604, type: vega, conn_period: 0 minutes, user_terminal_addr: 0
+[1/1/2000][0:2:2]srv_man: Reg status changed: Registered, home network (1) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:2:11]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Registered, home network (1)
+[1/1/2000][0:2:11]srv_man: AcT changed: GSM (0) -> E-UTRAN (7)
+[1/1/2000][12:1:59]srv_man: restart modem after 720 min
+[1/1/2000][12:2:12]srv_man: turning on modem (sim id 0)...
+[1/1/2000][12:2:33]srv_man: modem ready
+[1/1/2000][12:2:34]srv_man: modem imei: 862798060731003
+[1/1/2000][12:2:34]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[1/1/2000][12:2:34]srv_man: iccid1: 8970199210584322533
+[1/1/2000][12:2:47]srv_man: COPS config ok at 2531 ms
+[1/1/2000][12:2:47]srv_man: apn settings (sim id=0), "", "", "" applied
+[1/1/2000][12:2:47]srv_man: Reg status changed: Unknown (4) -> Registered, home network (1)
+[1/1/2000][12:2:47]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][12:2:47]srv_man: Mobile codes changed: MCC=250, MNC=99
+[1/1/2000][12:2:50]srv_man: Reg status changed: Registered, home network (1) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][12:2:50]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Registered, home network (1)
+[1/1/2000][12:3:10]srv_man: AcT changed: GSM (0) -> E-UTRAN (7)
+[2/1/2000][0:2:49]srv_man: restart modem after 720 min
+[2/1/2000][0:3:3]srv_man: turning on modem (sim id 0)...
+[2/1/2000][0:3:24]srv_man: modem ready
+[2/1/2000][0:3:25]srv_man: modem imei: 862798060731003
+[2/1/2000][0:3:25]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[2/1/2000][0:3:25]srv_man: iccid1: 8970199210584322533
+[2/1/2000][0:3:37]srv_man: COPS config ok at 2444 ms
+[2/1/2000][0:3:37]srv_man: apn settings (sim id=0), "", "", "" applied
+[2/1/2000][0:3:38]srv_man: Reg status changed: Unknown (4) -> Registered, home network (1)
+[2/1/2000][0:3:38]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[2/1/2000][0:3:38]srv_man: Mobile codes changed: MCC=250, MNC=99
+[2/1/2000][0:4:0]srv_man: AcT changed: GSM (0) -> E-UTRAN (7)
+[2/1/2000][12:3:36]srv_man: restart modem after 720 min
+[2/1/2000][12:3:50]srv_man: turning on modem (sim id 0)...
+[2/1/2000][12:4:11]srv_man: modem ready
+[2/1/2000][12:4:11]srv_man: modem imei: 862798060731003
+[2/1/2000][12:4:12]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[2/1/2000][12:4:12]srv_man: iccid1: 8970199210584322533
+[2/1/2000][12:4:24]srv_man: COPS config ok at 2434 ms
+[2/1/2000][12:4:24]srv_man: apn settings (sim id=0), "", "", "" applied
+[2/1/2000][12:4:25]srv_man: Reg status changed: Unknown (4) -> Registered, home network (1)
+[2/1/2000][12:4:25]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[2/1/2000][12:4:25]srv_man: Mobile codes changed: MCC=250, MNC=99
+[2/1/2000][12:4:26]srv_man: Reg status changed: Registered, home network (1) -> Not registered, but MT is currently searching a new operator to register to (2)
+[2/1/2000][12:4:27]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Registered, home network (1)
+[2/1/2000][12:4:35]srv_man: AcT changed: GSM (0) -> E-UTRAN (7)
+[3/1/2000][0:4:26]srv_man: restart modem after 720 min
+[3/1/2000][0:4:39]srv_man: turning on modem (sim id 0)...
+[3/1/2000][0:5:0]srv_man: modem ready
+[3/1/2000][0:5:1]srv_man: modem imei: 862798060731003
+[3/1/2000][0:5:1]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[3/1/2000][0:5:1]srv_man: iccid1: 8970199210584322533
+[3/1/2000][0:5:14]srv_man: COPS config ok at 3664 ms
+[3/1/2000][0:5:15]srv_man: apn settings (sim id=0), "", "", "" applied
+[3/1/2000][0:5:15]srv_man: Reg status changed: Unknown (4) -> Registered, home network (1)
+[3/1/2000][0:5:15]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[3/1/2000][0:5:15]srv_man: Mobile codes changed: MCC=250, MNC=99
+[3/1/2000][0:5:17]srv_man: Reg status changed: Registered, home network (1) -> Not registered, but MT is currently searching a new operator to register to (2)
+[3/1/2000][0:5:18]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Registered, home network (1)
+[3/1/2000][0:5:25]srv_man: AcT changed: GSM (0) -> E-UTRAN (7)
+[3/1/2000][12:5:15]srv_man: restart modem after 720 min
+[3/1/2000][12:5:28]srv_man: turning on modem (sim id 0)...
+[3/1/2000][12:5:49]srv_man: modem ready
+[3/1/2000][12:5:50]srv_man: modem imei: 862798060731003
+[3/1/2000][12:5:50]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[3/1/2000][12:5:50]srv_man: iccid1: 8970199210584322533
+[3/1/2000][12:6:2]srv_man: COPS config ok at 2422 ms
+[3/1/2000][12:6:3]srv_man: apn settings (sim id=0), "", "", "" applied
+[3/1/2000][12:6:3]srv_man: Reg status changed: Unknown (4) -> Registered, home network (1)
+[3/1/2000][12:6:3]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[3/1/2000][12:6:3]srv_man: Mobile codes changed: MCC=250, MNC=99
+[3/1/2000][12:6:5]srv_man: Reg status changed: Registered, home network (1) -> Not registered, but MT is currently searching a new operator to register to (2)
+[3/1/2000][12:6:5]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Registered, home network (1)
+[3/1/2000][12:6:12]srv_man: AcT changed: GSM (0) -> E-UTRAN (7)
+[4/1/2000][0:6:5]srv_man: restart modem after 720 min
+[4/1/2000][0:6:18]srv_man: turning on modem (sim id 0)...
+[4/1/2000][0:6:39]srv_man: modem ready
+[4/1/2000][0:6:40]srv_man: modem imei: 862798060731003
+[4/1/2000][0:6:40]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[4/1/2000][0:6:40]srv_man: iccid1: 8970199210584322533
+[4/1/2000][0:6:53]srv_man: COPS config ok at 2860 ms
+[4/1/2000][0:6:53]srv_man: apn settings (sim id=0), "", "", "" applied
+[4/1/2000][0:6:54]srv_man: Reg status changed: Unknown (4) -> Registered, home network (1)
+[4/1/2000][0:6:54]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[4/1/2000][0:6:54]srv_man: Mobile codes changed: MCC=250, MNC=99
+[4/1/2000][0:6:55]srv_man: Reg status changed: Registered, home network (1) -> Not registered, but MT is currently searching a new operator to register to (2)
+[4/1/2000][0:6:55]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Registered, home network (1)
+[4/1/2000][0:7:3]srv_man: AcT changed: GSM (0) -> E-UTRAN (7)
+[4/1/2000][12:6:52]srv_man: restart modem after 720 min
+[4/1/2000][12:7:5]srv_man: turning on modem (sim id 0)...
+[4/1/2000][12:7:26]srv_man: modem ready
+[4/1/2000][12:7:27]srv_man: modem imei: 862798060731003
+[4/1/2000][12:7:27]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[4/1/2000][12:7:27]srv_man: iccid1: 8970199210584322533
+[4/1/2000][12:7:39]srv_man: COPS config ok at 2125 ms
+[4/1/2000][12:7:39]srv_man: apn settings (sim id=0), "", "", "" applied
+[4/1/2000][12:7:40]srv_man: Reg status changed: Unknown (4) -> Registered, home network (1)
+[4/1/2000][12:7:40]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[4/1/2000][12:7:40]srv_man: Mobile codes changed: MCC=250, MNC=99
+[4/1/2000][12:7:41]srv_man: Reg status changed: Registered, home network (1) -> Not registered, but MT is currently searching a new operator to register to (2)
+[4/1/2000][12:7:41]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Registered, home network (1)
+[4/1/2000][12:7:49]srv_man: AcT changed: GSM (0) -> E-UTRAN (7)
+[4/1/2000][20:42:11]syscom_man: New SETTINGS received
+[4/1/2000][20:42:12]syscom_man: total settings: 660, warn size: 0, not found: 0, bad size: 0
+[4/1/2000][20:42:14]srv_man: new settings, server id: 1, addr: nl.gpsgsm.org:20629, type: wips, conn_period: 0 minutes, user_terminal_addr: 0
+[4/1/2000][20:42:16]srv_man: save backup settings: not support
+[4/1/2000][20:45:51]syscom_man: New SETTINGS received
+[4/1/2000][20:45:51]syscom_man: total settings: 660, warn size: 0, not found: 0, bad size: 0
+[4/1/2000][20:45:53]srv_man: new settings, server id: 1, addr: nl.gpsgsm.org:20332, type: wips, conn_period: 0 minutes, user_terminal_addr: 0
+[4/1/2000][20:45:55]srv_man: save backup settings: not support
+[4/1/2000][20:46:9]Black_box: read priority_message error from sector 72, byte 1590, len 13108
+[4/1/2000][20:46:9]wipsP_ctx1: read_message error (available_mess=255, read_offset=0)
+[4/1/2000][20:46:9]srv_man: conn_ctx_1, bbox error(-5) in WialonChunkedBboxUploadHandle
+[4/1/2000][20:46:18]Black_box: read priority_message error from sector 72, byte 1590, len 13108
+[4/1/2000][20:46:18]wipsP_ctx1: read_message error (available_mess=255, read_offset=0)
+[4/1/2000][20:46:18]srv_man: conn_ctx_1, bbox error(-5) in WialonChunkedBboxUploadHandle
+[4/1/2000][20:46:27]Black_box: read priority_message error from sector 72, byte 1590, len 13108
+[4/1/2000][20:46:28]wipsP_ctx1: read_message error (available_mess=255, read_offset=0)
+[4/1/2000][20:46:28]srv_man: conn_ctx_1, bbox error(-5) in WialonChunkedBboxUploadHandle
+[4/1/2000][20:46:52]Black_box: read priority_message error from sector 72, byte 1590, len 13108
+[4/1/2000][20:46:52]wipsP_ctx1: read_message error (available_mess=255, read_offset=0)
+[4/1/2000][20:46:53]srv_man: conn_ctx_1, bbox error(-5) in WialonChunkedBboxUploadHandle
+[4/1/2000][20:47:2]Black_box: read priority_message error from sector 72, byte 1590, len 13108
+[4/1/2000][20:47:2]wipsP_ctx1: read_message error (available_mess=255, read_offset=0)
+[4/1/2000][20:47:2]srv_man: conn_ctx_1, bbox error(-5) in WialonChunkedBboxUploadHandle
+[4/1/2000][20:47:10]Black_box: read priority_message error from sector 72, byte 1590, len 13108
+[4/1/2000][20:47:10]wipsP_ctx1: read_message error (available_mess=255, read_offset=0)
+[4/1/2000][20:47:10]srv_man: conn_ctx_1, bbox error(-5) in WialonChunkedBboxUploadHandle
+[4/1/2000][20:47:19]Black_box: read priority_message error from sector 72, byte 1590, len 13108
+[4/1/2000][20:47:19]syscom_man: Black_box read error count > 6, cleaning black box
+[4/1/2000][20:47:19]syscom_man: Restart due to black box clean
+
+[4/1/2000][20:47:24]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[4/1/2000][20:47:25]no need to update the firmware
+[4/1/2000][20:47:25]check application image crc...
+[4/1/2000][20:47:25]application image crc is ok
+[4/1/2000][20:47:25]jump to application...
+[4/1/2000][20:47:28]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[4/1/2000][20:47:28]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[4/1/2000][20:47:28]syscom_man: Normal start
+[4/1/2000][20:47:29]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (316 ms)
+[4/1/2000][20:47:29]srv_man: waking up...
+[4/1/2000][20:47:29]signal_man: LPWRRST: 0, SFTRST: 1, PORRST: 0, PINRST: 0, BORRST: 0
+[4/1/2000][20:47:30]signalman_subtask: ready to work...
+[4/1/2000][20:47:30]can_subtask: ready to work...
+[4/1/2000][20:47:30]CAN1: hw settings updated
+[4/1/2000][20:47:30]CAN2: hw settings updated
+[4/1/2000][20:47:30]CAN1 err: no error (0)
+[4/1/2000][20:47:30]CAN2 err: no error (0)
+[4/1/2000][20:47:34]srv_man: turning on modem (sim id 0)...
+[4/1/2000][20:47:55]srv_man: modem ready
+[4/1/2000][20:47:56]srv_man: modem imei: 862798060731003
+[4/1/2000][20:47:56]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[4/1/2000][20:47:56]srv_man: iccid1: 8970199210584322533
+[4/1/2000][20:48:8]srv_man: COPS config ok at 2179 ms
+[4/1/2000][20:48:8]srv_man: apn settings (sim id=0), "", "", "" applied
+[4/1/2000][20:48:9]srv_man: Reg status changed: Unknown (4) -> Registered, home network (1)
+[4/1/2000][20:48:9]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[4/1/2000][20:48:9]srv_man: Mobile codes changed: MCC=250, MNC=99
+[4/1/2000][20:48:9]srv_man: new settings, server id: 1, addr: nl.gpsgsm.org:20332, type: wips, conn_period: 0 minutes, user_terminal_addr: 0
+[4/1/2000][20:48:9]srv_man: new settings, server id: 2, addr: nl.gpsgsm.org:20629, type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[4/1/2000][20:48:9]srv_man: new settings, server id: 3, addr: , type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[4/1/2000][20:48:9]srv_man: new settings, server id: 4, addr: 89.189.183.233:5604, type: vega, conn_period: 0 minutes, user_terminal_addr: 0
+[4/1/2000][20:48:11]srv_man: Reg status changed: Registered, home network (1) -> Not registered, but MT is currently searching a new operator to register to (2)
+[4/1/2000][20:48:12]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Registered, home network (1)
+[4/1/2000][20:48:20]srv_man: AcT changed: GSM (0) -> E-UTRAN (7)
+[4/1/2000][21:1:35]signal_man: ext pwr changed to "low"
+
+[14/1/2000][0:15:18]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[14/1/2000][0:15:18]no need to update the firmware
+[14/1/2000][0:15:18]check application image crc...
+[14/1/2000][0:15:18]application image crc is ok
+[14/1/2000][0:15:19]jump to application...
+[14/1/2000][0:15:22]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[14/1/2000][0:15:22]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[14/1/2000][0:15:22]syscom_man: Normal start
+[14/1/2000][0:15:23]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (312 ms)
+[14/1/2000][0:15:23]srv_man: waking up...
+[14/1/2000][0:15:23]signal_man: LPWRRST: 0, SFTRST: 0, PORRST: 1, PINRST: 1, BORRST: 1
+[14/1/2000][0:15:23]signalman_subtask: ready to work...
+[14/1/2000][0:15:23]can_subtask: ready to work...
+[14/1/2000][0:15:24]CAN1 err: no error (0)
+[14/1/2000][0:15:24]CAN2 err: no error (0)
+[14/1/2000][0:15:24]CAN1: hw settings updated
+[14/1/2000][0:15:24]CAN2: hw settings updated
+[14/1/2000][0:15:25]CAN1 err: no error (0)
+[14/1/2000][0:15:25]CAN2 err: no error (0)
+[14/1/2000][0:15:28]srv_man: turning on modem (sim id 0)...
+[14/1/2000][0:15:49]srv_man: modem ready
+[14/1/2000][0:15:49]srv_man: modem imei: 862798060731003
+[14/1/2000][0:15:49]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[14/1/2000][0:15:50]srv_man: iccid1: 8970199210584322533
+[14/1/2000][0:16:3]srv_man: COPS config ok at 3502 ms
+[14/1/2000][0:16:3]srv_man: apn settings (sim id=0), "", "", "" applied
+[14/1/2000][0:16:3]srv_man: Reg status changed: Unknown (4) -> Registered, home network (1)
+[14/1/2000][0:16:4]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[14/1/2000][0:16:4]srv_man: Mobile codes changed: MCC=250, MNC=99
+[14/1/2000][0:16:4]srv_man: new settings, server id: 1, addr: nl.gpsgsm.org:20332, type: wips, conn_period: 0 minutes, user_terminal_addr: 0
+[14/1/2000][0:16:4]srv_man: new settings, server id: 2, addr: nl.gpsgsm.org:20629, type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[14/1/2000][0:16:4]srv_man: new settings, server id: 3, addr: , type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[14/1/2000][0:16:4]srv_man: new settings, server id: 4, addr: 89.189.183.233:5604, type: vega, conn_period: 0 minutes, user_terminal_addr: 0
+[14/1/2000][0:16:21]srv_man: AcT changed: GSM (0) -> E-UTRAN (7)
+[14/1/2000][1:24:10]syscom_man: New SETTINGS received
+[14/1/2000][1:24:11]syscom_man: total settings: 660, warn size: 0, not found: 0, bad size: 0
+[14/1/2000][1:24:13]srv_man: save backup settings: not support
+[7/9/2023][10:35:55]syscom_man: New SETTINGS received
+[7/9/2023][10:35:56]syscom_man: total settings: 660, warn size: 0, not found: 0, bad size: 0
+[7/9/2023][10:35:59]srv_man: new settings, server id: 1, addr: 1.1.1.1:11111, type: wips, conn_period: 0 minutes, user_terminal_addr: 0
+[7/9/2023][10:36:2]srv_man: save backup settings: not support
+[7/9/2023][10:46:1]srv_man: Reg status changed: Registered, home network (1) -> Not registered, but MT is currently searching a new operator to register to (2)
+[7/9/2023][10:46:10]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Registered, home network (1)
+[7/9/2023][10:46:11]srv_man: AcT changed: E-UTRAN (7) -> GSM (0)
+[7/9/2023][10:46:19]srv_man: AcT changed: GSM (0) -> E-UTRAN (7)
+[7/9/2023][11:52:25]srv_man: modem reboot detect, restart manager
+[7/9/2023][11:52:31]srv_man: turning on modem (sim id 0)...
+[7/9/2023][11:52:51]srv_man: modem ready
+[7/9/2023][11:52:52]srv_man: modem imei: 862798060731003
+[7/9/2023][11:52:52]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[7/9/2023][11:52:52]srv_man: iccid1: 8970199210584322533
+[7/9/2023][11:53:5]srv_man: COPS config ok at 3552 ms
+[7/9/2023][11:53:6]srv_man: apn settings (sim id=0), "", "", "" applied
+[7/9/2023][11:53:6]srv_man: Reg status changed: Unknown (4) -> Registered, home network (1)
+[7/9/2023][11:53:6]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[7/9/2023][11:53:6]srv_man: Mobile codes changed: MCC=250, MNC=99
+[7/9/2023][11:53:7]srv_man: Reg status changed: Registered, home network (1) -> Not registered, but MT is currently searching a new operator to register to (2)
+[7/9/2023][11:53:8]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Registered, home network (1)
+[7/9/2023][11:54:7]srv_man: AcT changed: GSM (0) -> E-UTRAN (7)
+[7/9/2023][12:22:52]srv_man: AcT changed: E-UTRAN (7) -> GSM (0)
+[7/9/2023][12:23:8]srv_man: AcT changed: GSM (0) -> E-UTRAN (7)
+[8/9/2023][0:0:23]srv_man: restart modem after 720 min
+[8/9/2023][0:0:36]srv_man: turning on modem (sim id 0)...
+[8/9/2023][0:0:57]srv_man: modem ready
+[8/9/2023][0:0:57]srv_man: modem imei: 862798060731003
+[8/9/2023][0:0:58]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[8/9/2023][0:0:58]srv_man: iccid1: 8970199210584322533
+[8/9/2023][0:1:11]srv_man: COPS config ok at 3098 ms
+[8/9/2023][0:1:11]srv_man: apn settings (sim id=0), "", "", "" applied
+[8/9/2023][0:1:11]srv_man: Reg status changed: Unknown (4) -> Registered, home network (1)
+[8/9/2023][0:1:12]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[8/9/2023][0:1:12]srv_man: Mobile codes changed: MCC=250, MNC=99
+[8/9/2023][0:1:28]srv_man: AcT changed: GSM (0) -> E-UTRAN (7)
+[8/9/2023][7:50:20]srv_man: AcT changed: E-UTRAN (7) -> GSM (0)
+[8/9/2023][7:50:36]srv_man: AcT changed: GSM (0) -> E-UTRAN (7)
+[8/9/2023][8:0:8]srv_man: AcT changed: E-UTRAN (7) -> GSM (0)
+[8/9/2023][8:0:29]srv_man: AcT changed: GSM (0) -> E-UTRAN (7)
+[8/9/2023][12:19:7]srv_man: restart modem after 720 min
+[8/9/2023][12:19:21]srv_man: turning on modem (sim id 0)...
+[8/9/2023][12:19:41]srv_man: modem ready
+[8/9/2023][12:19:42]srv_man: modem imei: 862798060731003
+[8/9/2023][12:19:42]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[8/9/2023][12:19:42]srv_man: iccid1: 8970199210584322533
+[8/9/2023][12:19:55]srv_man: COPS config ok at 2770 ms
+[8/9/2023][12:19:55]srv_man: apn settings (sim id=0), "", "", "" applied
+[8/9/2023][12:19:55]srv_man: Reg status changed: Unknown (4) -> Registered, home network (1)
+[8/9/2023][12:19:55]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[8/9/2023][12:19:55]srv_man: Mobile codes changed: MCC=250, MNC=99
+[8/9/2023][12:19:57]srv_man: Reg status changed: Registered, home network (1) -> Not registered, but MT is currently searching a new operator to register to (2)
+[8/9/2023][12:19:58]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Registered, home network (1)
+[8/9/2023][12:20:8]srv_man: AcT changed: GSM (0) -> E-UTRAN (7)
+[9/9/2023][0:21:22]srv_man: restart modem after 720 min
+[9/9/2023][0:21:35]srv_man: turning on modem (sim id 0)...
+[9/9/2023][0:21:56]srv_man: modem ready
+[9/9/2023][0:21:56]srv_man: modem imei: 862798060731003
+[9/9/2023][0:21:57]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[9/9/2023][0:21:57]srv_man: iccid1: 8970199210584322533
+[9/9/2023][0:22:9]srv_man: COPS config ok at 2568 ms
+[9/9/2023][0:22:9]srv_man: apn settings (sim id=0), "", "", "" applied
+[9/9/2023][0:22:9]srv_man: Reg status changed: Unknown (4) -> Registered, home network (1)
+[9/9/2023][0:22:10]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[9/9/2023][0:22:10]srv_man: Mobile codes changed: MCC=250, MNC=99
+[9/9/2023][0:22:26]srv_man: AcT changed: GSM (0) -> E-UTRAN (7)
+[9/9/2023][12:18:37]srv_man: restart modem after 720 min
+[9/9/2023][12:18:51]srv_man: turning on modem (sim id 0)...
+[9/9/2023][12:19:12]srv_man: modem ready
+[9/9/2023][12:19:12]srv_man: modem imei: 862798060731003
+[9/9/2023][12:19:12]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[9/9/2023][12:19:13]srv_man: iccid1: 8970199210584322533
+[9/9/2023][12:19:25]srv_man: COPS config ok at 2655 ms
+[9/9/2023][12:19:25]srv_man: apn settings (sim id=0), "", "", "" applied
+[9/9/2023][12:19:25]srv_man: Reg status changed: Unknown (4) -> Registered, home network (1)
+[9/9/2023][12:19:26]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[9/9/2023][12:19:26]srv_man: Mobile codes changed: MCC=250, MNC=99
+[9/9/2023][12:19:28]srv_man: Reg status changed: Registered, home network (1) -> Not registered, but MT is currently searching a new operator to register to (2)
+[9/9/2023][12:19:28]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Registered, home network (1)
+[9/9/2023][12:19:51]srv_man: AcT changed: GSM (0) -> E-UTRAN (7)
+[10/9/2023][0:19:26]srv_man: restart modem after 720 min
+[10/9/2023][0:19:39]srv_man: turning on modem (sim id 0)...
+[10/9/2023][0:20:0]srv_man: modem ready
+[10/9/2023][0:20:0]srv_man: modem imei: 862798060731003
+[10/9/2023][0:20:1]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[10/9/2023][0:20:1]srv_man: iccid1: 8970199210584322533
+[10/9/2023][0:20:13]srv_man: COPS config ok at 2378 ms
+[10/9/2023][0:20:13]srv_man: apn settings (sim id=0), "", "", "" applied
+[10/9/2023][0:20:13]srv_man: Reg status changed: Unknown (4) -> Registered, home network (1)
+[10/9/2023][0:20:13]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[10/9/2023][0:20:14]srv_man: Mobile codes changed: MCC=250, MNC=99
+[10/9/2023][0:20:31]srv_man: AcT changed: GSM (0) -> E-UTRAN (7)
+[10/9/2023][12:20:15]srv_man: restart modem after 720 min
+[10/9/2023][12:20:29]srv_man: turning on modem (sim id 0)...
+[10/9/2023][12:20:49]srv_man: modem ready
+[10/9/2023][12:20:50]srv_man: modem imei: 862798060731003
+[10/9/2023][12:20:50]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[10/9/2023][12:20:50]srv_man: iccid1: 8970199210584322533
+[10/9/2023][12:21:2]srv_man: COPS config ok at 2411 ms
+[10/9/2023][12:21:3]srv_man: apn settings (sim id=0), "", "", "" applied
+[10/9/2023][12:21:3]srv_man: Reg status changed: Unknown (4) -> Registered, home network (1)
+[10/9/2023][12:21:3]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[10/9/2023][12:21:3]srv_man: Mobile codes changed: MCC=250, MNC=99
+[10/9/2023][12:21:22]srv_man: AcT changed: GSM (0) -> E-UTRAN (7)
+[11/9/2023][0:21:6]srv_man: restart modem after 720 min
+[11/9/2023][0:21:19]srv_man: turning on modem (sim id 0)...
+[11/9/2023][0:21:40]srv_man: modem ready
+[11/9/2023][0:21:41]srv_man: modem imei: 862798060731003
+[11/9/2023][0:21:41]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[11/9/2023][0:21:41]srv_man: iccid1: 8970199210584322533
+[11/9/2023][0:21:53]srv_man: COPS config ok at 2599 ms
+[11/9/2023][0:21:53]srv_man: apn settings (sim id=0), "", "", "" applied
+[11/9/2023][0:21:54]srv_man: Reg status changed: Unknown (4) -> Registered, home network (1)
+[11/9/2023][0:21:54]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[11/9/2023][0:21:54]srv_man: Mobile codes changed: MCC=250, MNC=99
+[11/9/2023][0:22:12]srv_man: AcT changed: GSM (0) -> E-UTRAN (7)
+[11/9/2023][6:4:26]syscom_man: New SETTINGS received
+[11/9/2023][6:4:26]syscom_man: total settings: 660, warn size: 0, not found: 0, bad size: 0
+[11/9/2023][6:4:28]srv_man: new settings, server id: 1, addr: nl.gpsgsm.org:20332, type: wips, conn_period: 0 minutes, user_terminal_addr: 0
+[11/9/2023][6:4:31]srv_man: save backup settings: not support
+
+[11/9/2023][6:5:11]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[11/9/2023][6:5:11]no need to update the firmware
+[11/9/2023][6:5:11]check application image crc...
+[11/9/2023][6:5:11]application image crc is ok
+[11/9/2023][6:5:11]jump to application...
+[11/9/2023][6:6:1]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[11/9/2023][6:6:1]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[11/9/2023][6:6:1]syscom_man: Normal start
+[11/9/2023][6:6:1]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (313 ms)
+[11/9/2023][6:6:1]srv_man: waking up...
+[11/9/2023][6:6:2]!!!!!signal_man: system started after IWDG reset, reset_count=1!!!!!
+[11/9/2023][6:6:2]signal_man: LPWRRST: 0, SFTRST: 0, PORRST: 0, PINRST: 0, BORRST: 0
+[11/9/2023][6:6:2]signalman_subtask: ready to work...
+[11/9/2023][6:6:2]can_subtask: ready to work...
+[11/9/2023][6:6:3]CAN1 err: no error (0)
+[11/9/2023][6:6:3]CAN2 err: no error (0)
+[11/9/2023][6:6:3]CAN1: hw settings updated
+[11/9/2023][6:6:3]CAN2: hw settings updated
+[11/9/2023][6:6:4]CAN1 err: no error (0)
+[11/9/2023][6:6:4]CAN2 err: no error (0)
+[11/9/2023][6:6:7]srv_man: turning on modem (sim id 0)...
+[11/9/2023][6:6:27]srv_man: modem ready
+[11/9/2023][6:6:28]srv_man: modem imei: 862798060731003
+[11/9/2023][6:6:28]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[11/9/2023][6:6:28]srv_man: iccid1: 8970199210584322533
+[11/9/2023][6:6:42]srv_man: COPS config ok at 4484 ms
+[11/9/2023][6:6:43]srv_man: apn settings (sim id=0), "", "", "" applied
+[11/9/2023][6:6:43]srv_man: Reg status changed: Unknown (4) -> Registered, home network (1)
+[11/9/2023][6:6:43]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[11/9/2023][6:6:43]srv_man: Mobile codes changed: MCC=250, MNC=99
+[11/9/2023][6:6:43]srv_man: new settings, server id: 1, addr: nl.gpsgsm.org:20332, type: wips, conn_period: 0 minutes, user_terminal_addr: 0
+[11/9/2023][6:6:44]srv_man: new settings, server id: 2, addr: nl.gpsgsm.org:20629, type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[11/9/2023][6:6:44]srv_man: new settings, server id: 3, addr: , type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[11/9/2023][6:6:44]srv_man: new settings, server id: 4, addr: 89.189.183.233:5604, type: vega, conn_period: 0 minutes, user_terminal_addr: 0
+[11/9/2023][6:6:45]srv_man: Reg status changed: Registered, home network (1) -> Not registered, but MT is currently searching a new operator to register to (2)
+[11/9/2023][6:6:45]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Registered, home network (1)
+[11/9/2023][6:7:1]srv_man: AcT changed: GSM (0) -> E-UTRAN (7)
+[11/9/2023][13:59:32]signal_man: ext pwr changed to "low"
+
+[1/1/2000][0:0:2]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[1/1/2000][0:0:2]no need to update the firmware
+[1/1/2000][0:0:2]check application image crc...
+[1/1/2000][0:0:2]application image crc is ok
+[1/1/2000][0:0:2]jump to application...
+
+[1/1/2000][0:0:2]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[1/1/2000][0:0:2]no need to update the firmware
+[1/1/2000][0:0:2]check application image crc...
+[1/1/2000][0:0:3]application image crc is ok
+[1/1/2000][0:0:3]jump to application...
+
+[1/1/2000][0:0:2]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[1/1/2000][0:0:2]no need to update the firmware
+[1/1/2000][0:0:2]check application image crc...
+[1/1/2000][0:0:3]application image crc is ok
+[1/1/2000][0:0:3]jump to application...
+[1/1/2000][0:0:52]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[1/1/2000][0:0:52]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[1/1/2000][0:0:52]syscom_man: Normal start
+[1/1/2000][0:0:53]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (316 ms)
+[1/1/2000][0:0:53]srv_man: waking up...
+[1/1/2000][0:0:53]signal_man: LPWRRST: 0, SFTRST: 0, PORRST: 0, PINRST: 0, BORRST: 0
+[1/1/2000][0:0:54]signalman_subtask: ready to work...
+[1/1/2000][0:0:54]can_subtask: ready to work...
+[1/1/2000][0:0:54]CAN1: hw settings updated
+[1/1/2000][0:0:54]CAN2: hw settings updated
+[1/1/2000][0:0:54]CAN1 err: no error (0)
+[1/1/2000][0:0:55]CAN2 err: no error (0)
+[1/1/2000][0:0:58]srv_man: turning on modem (sim id 0)...
+[1/1/2000][0:1:19]srv_man: modem ready
+[1/1/2000][0:1:20]srv_man: modem imei: 862798060731003
+[1/1/2000][0:1:20]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[1/1/2000][0:1:20]srv_man: iccid1: 8970199210584322533
+[1/1/2000][0:1:33]srv_man: COPS config ok at 2543 ms
+[1/1/2000][0:1:33]srv_man: apn settings (sim id=0), "", "", "" applied
+[1/1/2000][0:1:33]srv_man: Reg status changed: Unknown (4) -> Registered, home network (1)
+[1/1/2000][0:1:33]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:1:33]srv_man: Mobile codes changed: MCC=250, MNC=99
+[1/1/2000][0:1:34]srv_man: new settings, server id: 1, addr: nl.gpsgsm.org:20332, type: wips, conn_period: 0 minutes, user_terminal_addr: 0
+[1/1/2000][0:1:34]srv_man: new settings, server id: 2, addr: nl.gpsgsm.org:20629, type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[1/1/2000][0:1:34]srv_man: new settings, server id: 3, addr: , type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[1/1/2000][0:1:34]srv_man: new settings, server id: 4, addr: 89.189.183.233:5604, type: vega, conn_period: 0 minutes, user_terminal_addr: 0
+[1/1/2000][0:1:46]srv_man: AcT changed: GSM (0) -> E-UTRAN (7)
+[1/1/2000][0:7:8]signal_man: ext pwr changed to "low"
+[1/1/2000][0:7:12]syscom_man: Scenario 0 make call to authorized number 1
+[1/1/2000][0:7:12]syscom_man: Scenario 0 send sms to authorized number 2 success
+
+[1/1/2000][0:0:2]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[1/1/2000][0:0:2]no need to update the firmware
+[1/1/2000][0:0:3]check application image crc...
+[1/1/2000][0:0:3]application image crc is ok
+[1/1/2000][0:0:3]jump to application...
+[1/1/2000][0:0:52]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[1/1/2000][0:0:52]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[1/1/2000][0:0:52]syscom_man: Normal start
+[1/1/2000][0:0:53]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (317 ms)
+[1/1/2000][0:0:53]srv_man: waking up...
+[1/1/2000][0:0:53]signal_man: LPWRRST: 0, SFTRST: 0, PORRST: 0, PINRST: 0, BORRST: 0
+[1/1/2000][0:0:53]signalman_subtask: ready to work...
+[1/1/2000][0:0:54]can_subtask: ready to work...
+[1/1/2000][0:0:54]CAN1: hw settings updated
+[1/1/2000][0:0:54]CAN2: hw settings updated
+[1/1/2000][0:0:54]CAN1 err: no error (0)
+[1/1/2000][0:0:54]CAN2 err: no error (0)
+[1/1/2000][0:0:58]srv_man: turning on modem (sim id 0)...
+[1/1/2000][0:1:19]srv_man: modem ready
+[1/1/2000][0:1:20]srv_man: modem imei: 862798060731003
+[1/1/2000][0:1:20]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[1/1/2000][0:1:20]srv_man: iccid1: 8970199210584322533
+[1/1/2000][0:1:34]srv_man: COPS config ok at 4544 ms
+[1/1/2000][0:1:35]srv_man: apn settings (sim id=0), "", "", "" applied
+[1/1/2000][0:1:35]srv_man: Reg status changed: Unknown (4) -> Registered, home network (1)
+[1/1/2000][0:1:35]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:1:35]srv_man: Mobile codes changed: MCC=250, MNC=99
+[1/1/2000][0:1:35]srv_man: new settings, server id: 1, addr: nl.gpsgsm.org:20332, type: wips, conn_period: 0 minutes, user_terminal_addr: 0
+[1/1/2000][0:1:35]srv_man: new settings, server id: 2, addr: nl.gpsgsm.org:20629, type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[1/1/2000][0:1:36]srv_man: new settings, server id: 3, addr: , type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[1/1/2000][0:1:36]srv_man: new settings, server id: 4, addr: 89.189.183.233:5604, type: vega, conn_period: 0 minutes, user_terminal_addr: 0
+[1/1/2000][0:1:36]srv_man: Reg status changed: Registered, home network (1) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:1:37]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Registered, home network (1)
+[1/1/2000][0:1:45]srv_man: AcT changed: GSM (0) -> E-UTRAN (7)
+[14/9/2023][11:32:58]syscom_man: New SETTINGS received
+[14/9/2023][11:32:59]syscom_man: total settings: 660, warn size: 0, not found: 0, bad size: 0
+[14/9/2023][11:33:1]srv_man: new settings, server id: 2, addr: 10.77.60.254:33001, type: egts, conn_period: 0 minutes, user_terminal_addr: 0
+[14/9/2023][11:33:2]srv_man: save backup settings: not support
+[14/9/2023][11:35:13]syscom_man: New SETTINGS received
+[14/9/2023][11:35:14]syscom_man: total settings: 660, warn size: 0, not found: 0, bad size: 0
+[14/9/2023][11:35:16]srv_man: new settings, server id: 1, addr: nl.gpsgsm.org:20332, type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[14/9/2023][11:35:16]srv_man: save backup settings: not support
+[14/9/2023][11:37:33]syscom_man: New SETTINGS received
+[14/9/2023][11:37:34]syscom_man: total settings: 660, warn size: 0, not found: 0, bad size: 0
+[14/9/2023][11:37:37]srv_man: save backup settings: not support
+[14/9/2023][11:39:8]syscom_man: New SETTINGS received
+[14/9/2023][11:39:9]syscom_man: total settings: 660, warn size: 0, not found: 0, bad size: 0
+[14/9/2023][11:39:11]srv_man: new settings, server id: 2, addr: nl.gpsgsm.org:20629, type: egts, conn_period: 0 minutes, user_terminal_addr: 0
+[14/9/2023][11:39:11]srv_man: save backup settings: not support
+[14/9/2023][11:43:55]syscom_man: New SETTINGS received
+[14/9/2023][11:43:55]syscom_man: total settings: 660, warn size: 0, not found: 0, bad size: 0
+[14/9/2023][11:43:58]srv_man: new settings, server id: 1, addr: 10.77.60.254:33001, type: egts, conn_period: 0 minutes, user_terminal_addr: 0
+[14/9/2023][11:43:58]srv_man: new settings, server id: 2, addr: , type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[14/9/2023][11:43:59]srv_man: save backup settings: not support
+[14/9/2023][11:45:10]syscom_man: New SETTINGS received
+[14/9/2023][11:45:11]syscom_man: total settings: 660, warn size: 0, not found: 0, bad size: 0
+[14/9/2023][11:45:15]srv_man: save backup settings: not support
+[14/9/2023][11:47:21]signal_man: ext pwr changed to "low"
+
+[14/9/2023][11:47:36]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[14/9/2023][11:47:37]no need to update the firmware
+[14/9/2023][11:47:37]check application image crc...
+[14/9/2023][11:47:37]application image crc is ok
+[14/9/2023][11:47:37]jump to application...
+[14/9/2023][11:48:26]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[14/9/2023][11:48:26]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[14/9/2023][11:48:26]syscom_man: Normal start
+[14/9/2023][11:48:27]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (318 ms)
+[14/9/2023][11:48:27]signal_man: LPWRRST: 0, SFTRST: 0, PORRST: 1, PINRST: 1, BORRST: 1
+[14/9/2023][11:48:27]srv_man: waking up...
+[14/9/2023][11:48:28]can_subtask: ready to work...
+[14/9/2023][11:48:28]signalman_subtask: ready to work...
+[14/9/2023][11:48:28]CAN1: hw settings updated
+[14/9/2023][11:48:28]CAN2: hw settings updated
+[14/9/2023][11:48:28]CAN1 err: no error (0)
+[14/9/2023][11:48:28]CAN2 err: no error (0)
+[14/9/2023][11:48:32]srv_man: turning on modem (sim id 0)...
+[14/9/2023][11:48:53]srv_man: modem ready
+[14/9/2023][11:48:54]srv_man: modem imei: 862798060731003
+[14/9/2023][11:48:54]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[14/9/2023][11:48:54]srv_man: iccid1: 8970199210584322533
+[14/9/2023][11:49:6]srv_man: COPS config ok at 2342 ms
+[14/9/2023][11:49:6]srv_man: apn settings (sim id=0), "", "", "" applied
+[14/9/2023][11:49:7]srv_man: Reg status changed: Unknown (4) -> Registered, home network (1)
+[14/9/2023][11:49:7]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[14/9/2023][11:49:7]srv_man: Mobile codes changed: MCC=250, MNC=99
+[14/9/2023][11:49:7]srv_man: new settings, server id: 1, addr: 10.77.60.254:33001, type: egts, conn_period: 0 minutes, user_terminal_addr: 0
+[14/9/2023][11:49:7]srv_man: new settings, server id: 2, addr: , type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[14/9/2023][11:49:7]srv_man: new settings, server id: 3, addr: , type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[14/9/2023][11:49:7]srv_man: new settings, server id: 4, addr: 89.189.183.233:5604, type: vega, conn_period: 0 minutes, user_terminal_addr: 0
+[14/9/2023][11:49:8]srv_man: Reg status changed: Registered, home network (1) -> Not registered, but MT is currently searching a new operator to register to (2)
+[14/9/2023][10:36:30]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Registered, home network (1)
+[14/9/2023][10:36:31]srv_man: AcT changed: GSM (0) -> E-UTRAN (7)
+[14/9/2023][10:43:2]syscom_man: New SETTINGS received
+[14/9/2023][10:43:3]syscom_man: total settings: 660, warn size: 0, not found: 0, bad size: 0
+[14/9/2023][10:43:5]srv_man: new settings, server id: 1, addr: nl.gpsgsm.org:20332, type: wips, conn_period: 0 minutes, user_terminal_addr: 0
+[14/9/2023][10:43:5]srv_man: new settings, server id: 2, addr: 10.77.60.254:33001, type: egts, conn_period: 0 minutes, user_terminal_addr: 0
+[14/9/2023][10:43:5]srv_man: save backup settings: not support
+[14/9/2023][10:45:13]syscom_man: New SETTINGS received
+[14/9/2023][10:45:14]syscom_man: total settings: 660, warn size: 0, not found: 0, bad size: 0
+[14/9/2023][10:45:16]srv_man: new settings, server id: 1, addr: 10.77.60.254:33001, type: egts, conn_period: 0 minutes, user_terminal_addr: 0
+[14/9/2023][10:45:16]srv_man: new settings, server id: 2, addr: , type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[14/9/2023][10:45:16]srv_man: save backup settings: not support
+[14/9/2023][10:46:6]signal_man: ext pwr changed to "low"
+
+[1/1/2000][0:0:2]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[1/1/2000][0:0:2]no need to update the firmware
+[1/1/2000][0:0:3]check application image crc...
+[1/1/2000][0:0:3]application image crc is ok
+[1/1/2000][0:0:3]jump to application...
+
+[1/1/2000][0:0:45]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[1/1/2000][0:0:45]no need to update the firmware
+[1/1/2000][0:0:45]check application image crc...
+[1/1/2000][0:0:46]application image crc is ok
+[1/1/2000][0:0:46]jump to application...
+[1/1/2000][0:1:35]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[1/1/2000][0:1:35]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[1/1/2000][0:1:35]syscom_man: Normal start
+[1/1/2000][0:1:35]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (318 ms)
+[1/1/2000][0:1:36]srv_man: waking up...
+[1/1/2000][0:1:36]signal_man: LPWRRST: 0, SFTRST: 0, PORRST: 1, PINRST: 1, BORRST: 1
+[1/1/2000][0:1:36]signalman_subtask: ready to work...
+[1/1/2000][0:1:36]can_subtask: ready to work...
+[1/1/2000][0:1:37]CAN1: hw settings updated
+[1/1/2000][0:1:37]CAN2: hw settings updated
+[1/1/2000][0:1:37]CAN1 err: no error (0)
+[1/1/2000][0:1:37]CAN2 err: no error (0)
+[1/1/2000][0:1:41]srv_man: turning on modem (sim id 0)...
+[1/1/2000][0:2:1]srv_man: modem ready
+[1/1/2000][0:2:2]srv_man: modem imei: 862798060731003
+[1/1/2000][0:2:2]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[1/1/2000][0:2:2]srv_man: iccid1: 8970177000009409239
+[1/1/2000][0:2:12]srv_man: COPS config ok at 108 ms
+[1/1/2000][0:2:12]srv_man: apn settings (sim id=0), "", "", "" applied
+[1/1/2000][0:2:13]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:2:13]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:2:14]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:2:14]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:2:14]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:2:16]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:2:16]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:2:17]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:2:17]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:2:18]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:2:18]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:2:19]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:2:19]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:2:20]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:2:20]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:2:22]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:2:22]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:2:23]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:2:23]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:2:24]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:2:24]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:2:25]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:2:25]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:2:27]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:2:27]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:2:28]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:2:28]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:2:29]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:2:29]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:2:30]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:2:30]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:2:32]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:2:32]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:2:33]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:2:33]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:2:34]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:2:34]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:2:35]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:2:35]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:2:36]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:2:36]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:2:38]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:2:38]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:2:39]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:2:39]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:2:40]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:2:40]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:2:42]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:2:42]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:2:43]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:2:43]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:2:44]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:2:44]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:2:45]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:2:45]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:2:47]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:2:47]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:2:48]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:2:48]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:2:49]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:2:49]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:2:50]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:2:50]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:2:52]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:2:52]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:2:53]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:2:53]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:2:54]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:2:54]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:2:55]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:2:55]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:2:56]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:2:56]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:2:57]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Not registered, ME is currently not searching for new operator (0)
+[1/1/2000][0:2:58]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[1/1/2000][0:2:58]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:2:59]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[1/1/2000][0:2:59]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:3:1]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[1/1/2000][0:3:1]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:3:2]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[1/1/2000][0:3:2]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:3:3]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[1/1/2000][0:3:3]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:3:5]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[1/1/2000][0:3:5]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:3:6]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[1/1/2000][0:3:6]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:3:7]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[1/1/2000][0:3:7]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:3:8]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[1/1/2000][0:3:8]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:3:9]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[1/1/2000][0:3:9]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:3:10]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[1/1/2000][0:3:10]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:3:12]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[1/1/2000][0:3:12]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:3:13]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[1/1/2000][0:3:13]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:3:14]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[1/1/2000][0:3:14]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:3:15]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[1/1/2000][0:3:15]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:3:17]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[1/1/2000][0:3:17]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:3:18]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[1/1/2000][0:3:18]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:3:19]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[1/1/2000][0:3:19]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:3:20]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[1/1/2000][0:3:20]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:3:22]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[1/1/2000][0:3:22]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:3:23]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[1/1/2000][0:3:23]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:3:23]srv_man: Mobile codes changed: MCC=250, MNC=1
+[1/1/2000][0:4:18]srv_man: Reg status changed: Unknown (4) -> Registration denied (3)
+[1/1/2000][0:4:18]srv_man: simcard id changed to 1 by "registration denied/ not searching operator", restart manager
+[1/1/2000][0:4:31]srv_man: turning on modem (sim id 1)...
+[1/1/2000][0:5:37]srv_man: sim (id 1) or call or sms ready err
+[1/1/2000][0:5:50]srv_man: turning on modem (sim id 0)...
+[1/1/2000][0:6:10]srv_man: modem ready
+[1/1/2000][0:6:11]srv_man: modem imei: 862798060731003
+[1/1/2000][0:6:11]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[1/1/2000][0:6:11]srv_man: iccid1: 8970177000009409239
+[1/1/2000][0:6:21]srv_man: COPS config ok at 128 ms
+[1/1/2000][0:6:22]srv_man: apn settings (sim id=0), "", "", "" applied
+[1/1/2000][0:6:22]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:6:23]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:6:23]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:6:24]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:6:24]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:6:25]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:6:25]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:6:26]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:6:26]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:6:27]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:6:27]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:6:29]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:6:29]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:6:30]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:6:30]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:6:31]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:6:31]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:6:33]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:6:33]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:6:34]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:6:34]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:6:35]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:6:35]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:6:36]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:6:36]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:6:37]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:6:37]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:6:39]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:6:39]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:6:40]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:6:40]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:6:41]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:6:41]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:6:42]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:6:42]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:6:44]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:6:44]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:6:45]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:6:45]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:6:46]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:6:46]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:6:47]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:6:47]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:6:49]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:6:49]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:6:50]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:6:50]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:6:51]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:6:51]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:6:52]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:6:52]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:6:54]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:6:54]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:6:55]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:6:55]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:6:56]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:6:56]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:6:57]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:6:57]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:6:59]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:6:59]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:7:0]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:7:0]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:7:1]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:7:1]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:7:2]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:7:2]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:7:4]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:7:4]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:7:5]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[1/1/2000][0:7:5]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:7:6]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[1/1/2000][0:7:6]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:7:7]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Not registered, ME is currently not searching for new operator (0)
+[1/1/2000][0:7:8]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[1/1/2000][0:7:8]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:7:9]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[1/1/2000][0:7:9]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:7:10]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[1/1/2000][0:7:10]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:7:12]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[1/1/2000][0:7:12]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:7:13]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[1/1/2000][0:7:13]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:7:14]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[1/1/2000][0:7:14]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:7:15]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[1/1/2000][0:7:15]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:7:17]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[1/1/2000][0:7:17]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:7:18]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[1/1/2000][0:7:18]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:7:19]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[1/1/2000][0:7:19]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:7:20]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[1/1/2000][0:7:20]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:7:22]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[1/1/2000][0:7:22]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:7:23]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[1/1/2000][0:7:23]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:7:24]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[1/1/2000][0:7:24]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:7:25]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[1/1/2000][0:7:25]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:7:27]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[1/1/2000][0:7:27]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:7:28]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[1/1/2000][0:7:28]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:7:29]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[1/1/2000][0:7:29]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:7:30]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[1/1/2000][0:7:30]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:7:32]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[1/1/2000][0:7:32]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:7:33]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[1/1/2000][0:7:33]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:7:34]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[1/1/2000][0:7:34]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:7:35]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[1/1/2000][0:7:35]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:7:37]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[1/1/2000][0:7:37]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:7:38]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[1/1/2000][0:7:38]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:7:39]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[1/1/2000][0:7:39]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[1/1/2000][0:7:39]srv_man: Mobile codes changed: MCC=250, MNC=1
+[1/1/2000][0:7:40]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[1/1/2000][0:7:40]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[1/1/2000][0:16:22]srv_man: simcard id changed to 1 by "no network", restart manager
+[1/1/2000][0:16:35]srv_man: turning on modem (sim id 1)...
+[1/1/2000][0:16:38]syscom_man: New SETTINGS received
+[1/1/2000][0:16:39]syscom_man: total settings: 660, warn size: 0, not found: 0, bad size: 0
+[1/1/2000][0:17:41]srv_man: sim (id 1) or call or sms ready err
+[1/1/2000][0:17:54]srv_man: turning on modem (sim id 0)...
+[1/1/2000][0:18:20]srv_man: +CFUN: 1 err
+[1/1/2000][0:18:29]srv_man: turning on modem (sim id 0)...
+[1/1/2000][0:18:55]srv_man: +CFUN: 1 err
+[1/1/2000][0:19:3]srv_man: turning on modem (sim id 0)...
+[1/1/2000][0:19:29]srv_man: +CFUN: 1 err
+[1/1/2000][0:19:38]srv_man: turning on modem (sim id 0)...
+[1/1/2000][0:20:4]srv_man: +CFUN: 1 err
+[1/1/2000][0:20:12]srv_man: turning on modem (sim id 0)...
+[1/1/2000][0:20:38]srv_man: +CFUN: 1 err
+[1/1/2000][0:20:47]srv_man: turning on modem (sim id 0)...
+[1/1/2000][0:21:13]srv_man: +CFUN: 1 err
+[1/1/2000][0:21:21]srv_man: turning on modem (sim id 0)...
+[1/1/2000][0:21:48]srv_man: +CFUN: 1 err
+[1/1/2000][0:21:56]srv_man: turning on modem (sim id 0)...
+[1/1/2000][0:22:14]signal_man: ext pwr changed to "low"
+[1/1/2000][0:22:18]syscom_man: Critical ACC discharge, emergency sleep
+
+[1/1/2000][0:22:36]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[1/1/2000][0:22:36]no need to update the firmware
+[1/1/2000][0:22:36]check application image crc...
+[1/1/2000][0:22:36]application image crc is ok
+[1/1/2000][0:22:37]jump to application...
+[1/1/2000][0:23:26]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[1/1/2000][0:23:26]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[1/1/2000][0:23:26]syscom_man: Normal start
+[1/1/2000][0:23:26]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (316 ms)
+[1/1/2000][0:23:27]srv_man: waking up...
+[1/1/2000][0:23:27]signal_man: LPWRRST: 0, SFTRST: 0, PORRST: 1, PINRST: 1, BORRST: 1
+[1/1/2000][0:23:27]signalman_subtask: ready to work...
+[1/1/2000][0:23:27]can_subtask: ready to work...
+[1/1/2000][0:23:28]CAN1: hw settings updated
+[1/1/2000][0:23:28]CAN2: hw settings updated
+[1/1/2000][0:23:28]CAN1 err: no error (0)
+[1/1/2000][0:23:29]CAN2 err: no error (0)
+[1/1/2000][0:23:32]srv_man: turning on modem (sim id 0)...
+[1/1/2000][0:23:52]srv_man: modem ready
+[1/1/2000][0:23:53]srv_man: modem imei: 862798060731003
+[1/1/2000][0:23:53]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[1/1/2000][0:23:53]srv_man: iccid1: 8970177000009409239
+[20/9/2023][11:36:28]srv_man: COPS config ok at 111981 ms
+[20/9/2023][11:36:28]srv_man: apn settings (sim id=0), "", "", "" applied
+[20/9/2023][11:36:28]srv_man: Reg status changed: Unknown (4) -> Registered, roaming (5)
+[20/9/2023][11:36:29]srv_man: AcT changed: Unknown (1) -> UTRAN (2)
+[20/9/2023][11:36:29]srv_man: Mobile codes changed: MCC=250, MNC=2
+[20/9/2023][11:36:29]srv_man: new settings, server id: 1, addr: nl.gpsgsm.org:20332, type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[20/9/2023][11:36:29]srv_man: new settings, server id: 2, addr: 10.77.60.254:33001, type: egts, conn_period: 0 minutes, user_terminal_addr: 0
+[20/9/2023][11:36:29]srv_man: new settings, server id: 3, addr: , type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[20/9/2023][11:36:29]srv_man: new settings, server id: 4, addr: 89.189.183.233:5604, type: vega, conn_period: 0 minutes, user_terminal_addr: 0
+[20/9/2023][11:36:31]srv_man: AcT changed: UTRAN (2) -> GSM (0)
+[20/9/2023][11:36:39]srv_man: Reg status changed: Registered, roaming (5) -> Registration denied (3)
+[20/9/2023][11:36:40]srv_man: simcard id changed to 1 by "registration denied/ not searching operator", restart manager
+[20/9/2023][11:36:53]srv_man: turning on modem (sim id 1)...
+[20/9/2023][11:37:20]signal_man: ext pwr changed to "low"
+[20/9/2023][11:37:25]syscom_man: Critical ACC discharge, emergency sleep
+
+[20/9/2023][11:37:52]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[20/9/2023][11:37:52]no need to update the firmware
+[20/9/2023][11:37:52]check application image crc...
+[20/9/2023][11:37:52]application image crc is ok
+[20/9/2023][11:37:52]jump to application...
+[20/9/2023][11:38:41]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[20/9/2023][11:38:42]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[20/9/2023][11:38:42]syscom_man: Normal start
+[20/9/2023][11:38:42]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (316 ms)
+[20/9/2023][11:38:42]srv_man: waking up...
+[20/9/2023][11:38:43]signal_man: LPWRRST: 0, SFTRST: 0, PORRST: 1, PINRST: 1, BORRST: 1
+[20/9/2023][11:38:43]signalman_subtask: ready to work...
+[20/9/2023][11:38:43]can_subtask: ready to work...
+[20/9/2023][11:38:43]CAN1: hw settings updated
+[20/9/2023][11:38:43]CAN2: hw settings updated
+[20/9/2023][11:38:44]CAN1 err: no error (0)
+[20/9/2023][11:38:44]CAN2 err: no error (0)
+[20/9/2023][11:38:48]srv_man: turning on modem (sim id 0)...
+[20/9/2023][11:39:8]srv_man: modem ready
+[20/9/2023][11:39:9]srv_man: modem imei: 862798060731003
+[20/9/2023][11:39:9]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[20/9/2023][11:39:9]srv_man: iccid1: 8970177000009409197
+[20/9/2023][11:39:19]srv_man: COPS config ok at 128 ms
+[20/9/2023][11:39:20]srv_man: apn settings (sim id=0), "", "", "" applied
+[20/9/2023][11:39:20]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:39:20]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:39:21]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:39:22]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:39:22]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:39:23]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:39:23]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:39:25]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:39:25]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:39:26]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:39:26]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:39:27]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:39:27]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:39:28]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:39:28]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:39:30]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:39:30]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:39:31]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:39:31]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:39:32]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:39:32]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:39:33]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:39:33]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:40:11]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:40:11]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:40:12]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:40:12]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:40:14]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:40:14]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:40:14]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:40:15]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:40:16]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:40:16]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:40:17]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:40:17]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:40:19]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:40:19]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:40:20]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:40:20]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:40:22]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:40:22]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:40:23]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:40:23]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:40:24]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:40:24]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:40:25]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:40:25]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:40:27]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:40:27]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:40:28]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:40:28]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:40:29]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:40:29]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:40:30]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:40:30]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:40:32]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:40:32]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:40:33]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:40:33]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:40:34]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:40:34]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:40:35]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:40:35]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:40:37]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:40:37]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:40:37]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:40:38]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:40:39]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:40:39]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:40:40]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:40:40]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:40:42]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:40:42]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:40:43]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:40:43]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:40:44]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:40:44]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:40:45]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:40:45]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:40:47]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:40:47]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:40:48]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:40:48]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:40:49]srv_man: Reg status changed: Unknown (4) -> Registration denied (3)
+[20/9/2023][11:40:49]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:40:49]srv_man: simcard id changed to 1 by "registration denied/ not searching operator", restart manager
+[20/9/2023][11:41:3]srv_man: turning on modem (sim id 1)...
+[20/9/2023][11:42:8]srv_man: sim (id 1) or call or sms ready err
+[20/9/2023][11:42:21]srv_man: turning on modem (sim id 0)...
+[20/9/2023][11:42:48]srv_man: +CFUN: 1 err
+[20/9/2023][11:42:56]srv_man: turning on modem (sim id 0)...
+[20/9/2023][11:43:22]srv_man: +CFUN: 1 err
+[20/9/2023][11:43:30]srv_man: turning on modem (sim id 0)...
+[20/9/2023][11:43:49]syscom_man: New SETTINGS received
+[20/9/2023][11:43:50]syscom_man: total settings: 660, warn size: 0, not found: 0, bad size: 0
+[20/9/2023][11:43:57]srv_man: +CFUN: 1 err
+[20/9/2023][11:44:5]srv_man: turning on modem (sim id 0)...
+[20/9/2023][11:44:9]syscom_man: command restart
+
+[20/9/2023][11:44:14]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[20/9/2023][11:44:14]no need to update the firmware
+[20/9/2023][11:44:14]check application image crc...
+[20/9/2023][11:44:15]application image crc is ok
+[20/9/2023][11:44:15]jump to application...
+[20/9/2023][11:45:4]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[20/9/2023][11:45:4]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[20/9/2023][11:45:4]syscom_man: Normal start
+[20/9/2023][11:45:5]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (317 ms)
+[20/9/2023][11:45:5]signal_man: LPWRRST: 0, SFTRST: 1, PORRST: 0, PINRST: 0, BORRST: 0
+[20/9/2023][11:45:5]srv_man: waking up...
+[20/9/2023][11:45:5]can_subtask: ready to work...
+[20/9/2023][11:45:6]signalman_subtask: ready to work...
+[20/9/2023][11:45:6]CAN1: hw settings updated
+[20/9/2023][11:45:6]CAN2: hw settings updated
+[20/9/2023][11:45:6]CAN1 err: no error (0)
+[20/9/2023][11:45:6]CAN2 err: no error (0)
+[20/9/2023][11:45:10]srv_man: turning on modem (sim id 0)...
+[20/9/2023][11:45:36]srv_man: +CFUN: 1 err
+[20/9/2023][11:45:45]srv_man: turning on modem (sim id 0)...
+[20/9/2023][11:46:11]srv_man: +CFUN: 1 err
+[20/9/2023][11:46:19]srv_man: turning on modem (sim id 0)...
+[20/9/2023][11:46:45]srv_man: +CFUN: 1 err
+[20/9/2023][11:46:54]srv_man: turning on modem (sim id 0)...
+[20/9/2023][11:47:20]srv_man: +CFUN: 1 err
+[20/9/2023][11:47:21]signal_man: ext pwr changed to "low"
+
+[20/9/2023][11:47:31]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[20/9/2023][11:47:31]no need to update the firmware
+[20/9/2023][11:47:31]check application image crc...
+[20/9/2023][11:47:31]application image crc is ok
+[20/9/2023][11:47:31]jump to application...
+[20/9/2023][11:48:20]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[20/9/2023][11:48:21]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[20/9/2023][11:48:21]syscom_man: Normal start
+[20/9/2023][11:48:21]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (317 ms)
+[20/9/2023][11:48:21]srv_man: waking up...
+[20/9/2023][11:48:21]signal_man: LPWRRST: 0, SFTRST: 0, PORRST: 1, PINRST: 1, BORRST: 1
+[20/9/2023][11:48:22]signalman_subtask: ready to work...
+[20/9/2023][11:48:22]can_subtask: ready to work...
+[20/9/2023][11:48:22]CAN1: hw settings updated
+[20/9/2023][11:48:22]CAN2: hw settings updated
+[20/9/2023][11:48:23]CAN1 err: no error (0)
+[20/9/2023][11:48:23]CAN2 err: no error (0)
+[20/9/2023][11:48:26]srv_man: turning on modem (sim id 0)...
+[20/9/2023][11:48:53]srv_man: +CFUN: 1 err
+[20/9/2023][11:49:1]srv_man: turning on modem (sim id 0)...
+[20/9/2023][11:49:27]srv_man: +CFUN: 1 err
+[20/9/2023][11:49:36]srv_man: turning on modem (sim id 0)...
+[20/9/2023][11:50:2]srv_man: +CFUN: 1 err
+[20/9/2023][11:50:10]srv_man: turning on modem (sim id 0)...
+[20/9/2023][11:50:36]srv_man: +CFUN: 1 err
+[20/9/2023][11:50:45]srv_man: turning on modem (sim id 0)...
+[20/9/2023][11:51:11]srv_man: +CFUN: 1 err
+[20/9/2023][11:51:19]srv_man: turning on modem (sim id 0)...
+[20/9/2023][11:51:43]syscom_man: New SETTINGS received
+[20/9/2023][11:51:44]syscom_man: total settings: 660, warn size: 0, not found: 0, bad size: 0
+[20/9/2023][11:51:46]srv_man: +CFUN: 1 err
+[20/9/2023][11:51:54]srv_man: turning on modem (sim id 0)...
+[20/9/2023][11:51:57]syscom_man: command restart
+
+[20/9/2023][11:52:2]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[20/9/2023][11:52:2]no need to update the firmware
+[20/9/2023][11:52:2]check application image crc...
+[20/9/2023][11:52:2]application image crc is ok
+[20/9/2023][11:52:2]jump to application...
+[20/9/2023][11:52:52]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[20/9/2023][11:52:52]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[20/9/2023][11:52:52]syscom_man: Normal start
+[20/9/2023][11:52:52]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (317 ms)
+[20/9/2023][11:52:52]signal_man: LPWRRST: 0, SFTRST: 1, PORRST: 0, PINRST: 0, BORRST: 0
+[20/9/2023][11:52:53]srv_man: waking up...
+[20/9/2023][11:52:53]can_subtask: ready to work...
+[20/9/2023][11:52:53]signalman_subtask: ready to work...
+[20/9/2023][11:52:53]CAN1: hw settings updated
+[20/9/2023][11:52:53]CAN2: hw settings updated
+[20/9/2023][11:52:54]CAN1 err: no error (0)
+[20/9/2023][11:52:54]CAN2 err: no error (0)
+[20/9/2023][11:52:58]srv_man: turning on modem (sim id 0)...
+[20/9/2023][11:53:19]srv_man: modem ready
+[20/9/2023][11:53:19]srv_man: modem imei: 862798060731003
+[20/9/2023][11:53:19]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[20/9/2023][11:53:20]srv_man: iccid1: 8970177000009409197
+[20/9/2023][11:53:29]srv_man: COPS config ok at 108 ms
+[20/9/2023][11:53:30]srv_man: apn settings (sim id=0), "internet", "", "" applied
+[20/9/2023][11:53:30]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:53:31]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:53:31]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:53:32]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:53:32]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:53:33]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:53:33]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:53:35]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:53:35]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:53:36]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:53:36]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:53:40]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:53:40]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:53:41]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:53:41]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:53:44]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:53:44]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:53:44]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:53:45]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:53:46]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:53:46]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:53:47]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:53:47]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:53:49]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:53:49]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:53:50]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:53:50]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:53:51]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:53:51]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:53:52]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:53:52]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:53:54]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:53:54]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:53:55]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:53:55]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:53:56]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:53:56]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:53:57]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:53:58]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:53:59]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:53:59]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:54:0]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:54:0]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:54:2]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:54:2]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:54:2]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:54:3]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:54:4]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:54:4]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:54:5]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:54:5]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:54:7]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:54:7]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:54:8]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:54:8]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:54:10]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:54:10]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:54:10]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:54:11]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:54:12]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:54:12]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:54:13]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:54:13]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:54:15]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:54:15]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:54:15]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:54:16]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:54:17]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[20/9/2023][11:54:17]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:54:18]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[20/9/2023][11:54:18]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:54:20]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[20/9/2023][11:54:20]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:54:20]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[20/9/2023][11:54:21]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:54:22]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[20/9/2023][11:54:22]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:54:23]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[20/9/2023][11:54:23]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:54:25]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[20/9/2023][11:54:25]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:54:25]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[20/9/2023][11:54:26]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:54:27]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[20/9/2023][11:54:27]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:54:28]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[20/9/2023][11:54:28]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:54:30]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[20/9/2023][11:54:30]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:54:31]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[20/9/2023][11:54:31]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:54:32]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[20/9/2023][11:54:32]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:54:33]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[20/9/2023][11:54:33]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:54:35]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[20/9/2023][11:54:35]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:54:36]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[20/9/2023][11:54:36]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:54:38]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[20/9/2023][11:54:38]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:54:38]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[20/9/2023][11:54:39]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:54:40]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[20/9/2023][11:54:40]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:54:41]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[20/9/2023][11:54:41]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:54:43]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[20/9/2023][11:54:43]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:54:43]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[20/9/2023][11:54:44]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:54:45]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[20/9/2023][11:54:45]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:54:45]srv_man: Mobile codes changed: MCC=250, MNC=99
+[20/9/2023][11:54:46]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Registered, roaming (5)
+[20/9/2023][11:54:46]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:54:46]srv_man: new settings, server id: 1, addr: nl.gpsgsm.org:20332, type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[20/9/2023][11:54:46]srv_man: new settings, server id: 2, addr: 10.77.60.254:33001, type: egts, conn_period: 0 minutes, user_terminal_addr: 0
+[20/9/2023][11:54:46]srv_man: new settings, server id: 3, addr: , type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[20/9/2023][11:54:46]srv_man: new settings, server id: 4, addr: 89.189.183.233:5604, type: vega, conn_period: 0 minutes, user_terminal_addr: 0
+[20/9/2023][11:58:52]syscom_man: New SETTINGS received
+[20/9/2023][11:58:52]syscom_man: total settings: 660, warn size: 0, not found: 0, bad size: 0
+[20/9/2023][11:58:54]srv_man: new settings, server id: 2, addr: 10.77.60.254:33001, type: egts, conn_period: 1 minutes, user_terminal_addr: 0
+[20/9/2023][11:58:54]srv_man: save backup settings: not support
+[20/9/2023][12:26:5]syscom_man: New SETTINGS received
+[20/9/2023][12:26:6]syscom_man: total settings: 660, warn size: 0, not found: 0, bad size: 0
+[20/9/2023][12:26:8]srv_man: new settings, server id: 2, addr: 10.77.60.254:33001, type: egts, conn_period: 1 minutes, user_terminal_addr: 100003
+[20/9/2023][12:26:8]srv_man: save backup settings: not support
+[20/9/2023][12:33:57]syscom_man: command clean black box
+
+[20/9/2023][12:34:2]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[20/9/2023][12:34:2]no need to update the firmware
+[20/9/2023][12:34:3]check application image crc...
+[20/9/2023][12:34:3]application image crc is ok
+[20/9/2023][12:34:3]jump to application...
+[20/9/2023][12:34:6]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[20/9/2023][12:34:6]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[20/9/2023][12:34:6]syscom_man: Normal start
+[20/9/2023][12:34:7]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (317 ms)
+[20/9/2023][12:34:7]srv_man: waking up...
+[20/9/2023][12:34:7]signal_man: LPWRRST: 0, SFTRST: 1, PORRST: 0, PINRST: 0, BORRST: 0
+[20/9/2023][12:34:7]signalman_subtask: ready to work...
+[20/9/2023][12:34:8]can_subtask: ready to work...
+[20/9/2023][12:34:8]CAN1: hw settings updated
+[20/9/2023][12:34:8]CAN2: hw settings updated
+[20/9/2023][12:34:8]CAN1 err: no error (0)
+[20/9/2023][12:34:8]CAN2 err: no error (0)
+[20/9/2023][12:34:12]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:34:33]srv_man: modem ready
+[20/9/2023][12:34:34]srv_man: modem imei: 862798060731003
+[20/9/2023][12:34:34]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[20/9/2023][12:34:34]srv_man: iccid1: 8970177000009409197
+[20/9/2023][12:34:39]syscom_man: New SETTINGS received
+[20/9/2023][12:34:40]syscom_man: total settings: 660, warn size: 0, not found: 0, bad size: 0
+[20/9/2023][12:35:43]srv_man: COPS config ok at 57887 ms
+[20/9/2023][12:35:43]srv_man: apn settings (sim id=0), "internet", "", "" applied
+[20/9/2023][12:35:43]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][12:35:43]srv_man: Mobile codes changed: MCC=250, MNC=1
+[20/9/2023][12:35:53]srv_man: Reg status changed: Unknown (4) -> Registration denied (3)
+[20/9/2023][12:35:53]srv_man: AcT changed: GSM (0) -> UTRAN (2)
+[20/9/2023][12:35:54]srv_man: simcard id changed to 1 by "registration denied/ not searching operator", restart manager
+[20/9/2023][12:36:7]srv_man: turning on modem (sim id 1)...
+[20/9/2023][12:37:13]srv_man: sim (id 1) or call or sms ready err
+[20/9/2023][12:37:26]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:37:52]srv_man: +CFUN: 1 err
+[20/9/2023][12:38:0]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:38:26]srv_man: +CFUN: 1 err
+[20/9/2023][12:38:35]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:39:1]srv_man: +CFUN: 1 err
+[20/9/2023][12:39:9]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:39:36]srv_man: +CFUN: 1 err
+[20/9/2023][12:39:44]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:40:8]syscom_man: command restart
+
+[20/9/2023][12:40:13]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[20/9/2023][12:40:13]no need to update the firmware
+[20/9/2023][12:40:13]check application image crc...
+[20/9/2023][12:40:13]application image crc is ok
+[20/9/2023][12:40:13]jump to application...
+[20/9/2023][12:40:17]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[20/9/2023][12:40:17]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[20/9/2023][12:40:17]syscom_man: Normal start
+[20/9/2023][12:40:17]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (317 ms)
+[20/9/2023][12:40:17]srv_man: waking up...
+[20/9/2023][12:40:18]signal_man: LPWRRST: 0, SFTRST: 1, PORRST: 0, PINRST: 0, BORRST: 0
+[20/9/2023][12:40:18]signalman_subtask: ready to work...
+[20/9/2023][12:40:18]can_subtask: ready to work...
+[20/9/2023][12:40:18]CAN1: hw settings updated
+[20/9/2023][12:40:18]CAN2: hw settings updated
+[20/9/2023][12:40:19]CAN1 err: no error (0)
+[20/9/2023][12:40:19]CAN2 err: no error (0)
+[20/9/2023][12:40:23]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:40:49]srv_man: +CFUN: 1 err
+[20/9/2023][12:40:57]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:41:23]srv_man: +CFUN: 1 err
+[20/9/2023][12:41:32]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:41:58]srv_man: +CFUN: 1 err
+[20/9/2023][12:42:6]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:42:24]syscom_man: New SETTINGS received
+[20/9/2023][12:42:25]syscom_man: total settings: 660, warn size: 0, not found: 0, bad size: 0
+[20/9/2023][12:42:33]srv_man: +CFUN: 1 err
+[20/9/2023][12:42:41]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:43:7]srv_man: +CFUN: 1 err
+[20/9/2023][12:43:15]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:43:42]srv_man: +CFUN: 1 err
+[20/9/2023][12:43:50]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:44:16]srv_man: +CFUN: 1 err
+[20/9/2023][12:44:25]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:44:51]srv_man: +CFUN: 1 err
+[20/9/2023][12:44:59]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:45:20]srv_man: modem ready
+[20/9/2023][12:45:20]syscom_man: command restart
+[20/9/2023][12:45:20]srv_man: modem imei: 862798060731003
+[20/9/2023][12:45:21]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[20/9/2023][12:45:21]srv_man: iccid1: 8970177000009409197
+
+[20/9/2023][12:45:25]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[20/9/2023][12:45:25]no need to update the firmware
+[20/9/2023][12:45:25]check application image crc...
+[20/9/2023][12:45:25]application image crc is ok
+[20/9/2023][12:45:25]jump to application...
+[20/9/2023][12:45:29]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[20/9/2023][12:45:29]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[20/9/2023][12:45:29]syscom_man: Normal start
+[20/9/2023][12:45:29]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (317 ms)
+[20/9/2023][12:45:29]srv_man: waking up...
+[20/9/2023][12:45:30]signal_man: LPWRRST: 0, SFTRST: 1, PORRST: 0, PINRST: 0, BORRST: 0
+[20/9/2023][12:45:30]signalman_subtask: ready to work...
+[20/9/2023][12:45:30]can_subtask: ready to work...
+[20/9/2023][12:45:30]CAN1: hw settings updated
+[20/9/2023][12:45:31]CAN2: hw settings updated
+[20/9/2023][12:45:31]CAN1 err: no error (0)
+[20/9/2023][12:45:31]CAN2 err: no error (0)
+[20/9/2023][12:45:35]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:45:55]srv_man: modem ready
+[20/9/2023][12:45:55]srv_man: modem imei: 862798060731003
+[20/9/2023][12:45:56]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[20/9/2023][12:45:56]srv_man: iccid1: 8970177000009409197
+[20/9/2023][12:47:2]srv_man: COPS config ok at 56272 ms
+[20/9/2023][12:47:3]srv_man: apn settings (sim id=0), "internet", "", "" applied
+[20/9/2023][12:47:3]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[20/9/2023][12:47:4]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][12:47:4]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][12:47:4]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][12:47:6]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][12:47:6]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][12:47:6]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][12:47:7]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][12:47:7]srv_man: Mobile codes changed: MCC=250, MNC=99
+[20/9/2023][12:47:7]srv_man: Reg status changed: Unknown (4) -> Registered, roaming (5)
+[20/9/2023][12:47:8]srv_man: new settings, server id: 1, addr: nl.gpsgsm.org:20332, type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[20/9/2023][12:47:8]srv_man: new settings, server id: 2, addr: 10.77.60.254:33001, type: egts, conn_period: 1 minutes, user_terminal_addr: 100003
+[20/9/2023][12:47:8]srv_man: new settings, server id: 3, addr: , type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[20/9/2023][12:47:8]srv_man: new settings, server id: 4, addr: 89.189.183.233:5604, type: vega, conn_period: 0 minutes, user_terminal_addr: 0
+[20/9/2023][12:47:14]srv_man: Reg status changed: Registered, roaming (5) -> Registration denied (3)
+[20/9/2023][12:47:14]srv_man: simcard id changed to 1 by "registration denied/ not searching operator", restart manager
+[20/9/2023][12:47:28]srv_man: turning on modem (sim id 1)...
+[20/9/2023][12:48:33]srv_man: sim (id 1) or call or sms ready err
+[20/9/2023][12:48:46]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:49:13]srv_man: +CFUN: 1 err
+[20/9/2023][12:49:21]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:49:47]srv_man: +CFUN: 1 err
+[20/9/2023][12:49:56]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:50:22]srv_man: +CFUN: 1 err
+[20/9/2023][12:50:30]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:50:56]srv_man: +CFUN: 1 err
+[20/9/2023][12:51:5]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:51:31]srv_man: +CFUN: 1 err
+[20/9/2023][12:51:39]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:52:6]srv_man: +CFUN: 1 err
+[20/9/2023][12:52:14]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:52:40]srv_man: +CFUN: 1 err
+[20/9/2023][12:52:48]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:53:15]srv_man: +CFUN: 1 err
+[20/9/2023][12:53:23]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:53:49]srv_man: +CFUN: 1 err
+[20/9/2023][12:53:58]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:54:24]srv_man: +CFUN: 1 err
+[20/9/2023][12:54:32]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:54:58]srv_man: +CFUN: 1 err
+[20/9/2023][12:55:7]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:55:27]srv_man: modem ready
+[20/9/2023][12:55:28]srv_man: modem imei: 862798060731003
+[20/9/2023][12:55:28]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[20/9/2023][12:55:28]srv_man: iccid1: 8970177000009409197
+[20/9/2023][12:56:30]srv_man: COPS config ok at 51655 ms
+[20/9/2023][12:56:30]srv_man: apn settings (sim id=0), "internet", "", "" applied
+[20/9/2023][12:56:30]srv_man: Reg status changed: Unknown (4) -> Registered, roaming (5)
+[20/9/2023][12:56:30]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][12:56:30]srv_man: Mobile codes changed: MCC=250, MNC=2
+[20/9/2023][12:56:34]srv_man: Reg status changed: Registered, roaming (5) -> Registration denied (3)
+[20/9/2023][12:56:35]srv_man: simcard id changed to 1 by "registration denied/ not searching operator", restart manager
+[20/9/2023][12:56:48]srv_man: turning on modem (sim id 1)...
+[20/9/2023][12:57:54]srv_man: sim (id 1) or call or sms ready err
+[20/9/2023][12:58:7]srv_man: turning on modem (sim id 0)...
+[20/9/2023][12:58:27]srv_man: modem ready
+[20/9/2023][12:58:28]srv_man: modem imei: 862798060731003
+[20/9/2023][12:58:28]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[20/9/2023][12:58:29]srv_man: iccid1: 8970177000009409197
+[20/9/2023][13:0:44]srv_man: COPS config ok at 126321 ms
+[20/9/2023][13:0:45]srv_man: apn settings (sim id=0), "internet", "", "" applied
+[20/9/2023][13:0:45]srv_man: Reg status changed: Unknown (4) -> Registered, roaming (5)
+[20/9/2023][13:0:45]srv_man: AcT changed: Unknown (1) -> UTRAN (2)
+[20/9/2023][13:0:45]srv_man: Mobile codes changed: MCC=250, MNC=20
+[20/9/2023][13:0:49]srv_man: Reg status changed: Registered, roaming (5) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][13:0:59]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Not registered, ME is currently not searching for new operator (0)
+
+[20/9/2023][13:39:46]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[20/9/2023][13:39:46]no need to update the firmware
+[20/9/2023][13:39:47]check application image crc...
+[20/9/2023][13:39:47]application image crc is ok
+[20/9/2023][13:39:47]jump to application...
+[20/9/2023][13:39:50]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[20/9/2023][13:39:50]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[20/9/2023][13:39:50]syscom_man: Normal start
+[20/9/2023][13:39:51]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (318 ms)
+[20/9/2023][13:39:51]srv_man: waking up...
+[20/9/2023][13:39:51]!!!!!signal_man: system started after IWDG reset, reset_count=1!!!!!
+[20/9/2023][13:39:51]signal_man: LPWRRST: 0, SFTRST: 0, PORRST: 0, PINRST: 0, BORRST: 0
+[20/9/2023][13:39:52]signalman_subtask: ready to work...
+[20/9/2023][13:39:52]can_subtask: ready to work...
+[20/9/2023][13:39:52]CAN1 err: no error (0)
+[20/9/2023][13:39:52]CAN2 err: no error (0)
+[20/9/2023][13:39:52]CAN1: hw settings updated
+[20/9/2023][13:39:53]CAN2: hw settings updated
+[20/9/2023][13:39:53]CAN1 err: no error (0)
+[20/9/2023][13:39:53]CAN2 err: no error (0)
+[20/9/2023][13:39:56]srv_man: turning on modem (sim id 0)...
+[20/9/2023][13:40:17]srv_man: modem ready
+[20/9/2023][13:40:18]srv_man: modem imei: 862798060731003
+[20/9/2023][13:40:18]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[20/9/2023][13:40:18]srv_man: iccid1: 8970177000009409197
+[20/9/2023][13:40:44]signal_man: ext pwr changed to "low"
+
+[1/1/2000][0:0:2]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[1/1/2000][0:0:2]no need to update the firmware
+[1/1/2000][0:0:3]check application image crc...
+[1/1/2000][0:0:3]application image crc is ok
+[1/1/2000][0:0:3]jump to application...
+[1/1/2000][0:0:6]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[1/1/2000][0:0:6]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[1/1/2000][0:0:6]syscom_man: Normal start
+[1/1/2000][0:0:7]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (317 ms)
+[1/1/2000][0:0:7]srv_man: waking up...
+[1/1/2000][0:0:7]signal_man: LPWRRST: 0, SFTRST: 0, PORRST: 0, PINRST: 0, BORRST: 0
+[1/1/2000][0:0:7]signalman_subtask: ready to work...
+[1/1/2000][0:0:8]can_subtask: ready to work...
+[1/1/2000][0:0:8]CAN1: hw settings updated
+[1/1/2000][0:0:8]CAN2: hw settings updated
+[1/1/2000][0:0:8]CAN1 err: no error (0)
+[1/1/2000][0:0:8]CAN2 err: no error (0)
+[1/1/2000][0:0:12]srv_man: turning on modem (sim id 0)...
+[1/1/2000][0:0:33]srv_man: modem ready
+[1/1/2000][0:0:33]srv_man: modem imei: 862798060731003
+[1/1/2000][0:0:34]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[1/1/2000][0:0:34]srv_man: iccid1: 8970177000009409197
+[1/1/2000][0:1:35]srv_man: COPS config ok at 51317 ms
+[1/1/2000][0:1:35]srv_man: apn settings (sim id=0), "internet", "", "" applied
+[1/1/2000][0:1:35]srv_man: Reg status changed: Unknown (4) -> Registration denied (3)
+[1/1/2000][0:1:36]srv_man: simcard id changed to 1 by "registration denied/ not searching operator", restart manager
+[1/1/2000][0:1:49]srv_man: turning on modem (sim id 1)...
+[1/1/2000][0:2:55]srv_man: sim (id 1) or call or sms ready err
+[1/1/2000][0:3:8]srv_man: turning on modem (sim id 0)...
+[1/1/2000][0:3:28]srv_man: modem ready
+[1/1/2000][0:3:29]srv_man: modem imei: 862798060731003
+[1/1/2000][0:3:29]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[1/1/2000][0:3:29]srv_man: iccid1: 8970177000009409197
+[20/9/2023][11:15:26]srv_man: COPS config ok at 50952 ms
+[20/9/2023][11:15:26]srv_man: apn settings (sim id=0), "internet", "", "" applied
+[20/9/2023][11:15:26]srv_man: Reg status changed: Unknown (4) -> Not registered, ME is currently not searching for new operator (0)
+[20/9/2023][11:15:27]srv_man: Reg status changed: Not registered, ME is currently not searching for new operator (0) -> Unknown (4)
+[20/9/2023][11:15:27]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:15:28]srv_man: Reg status changed: Unknown (4) -> Not registered, but MT is currently searching a new operator to register to (2)
+[20/9/2023][11:15:28]srv_man: AcT changed: GSM (0) -> Unknown (1)
+[20/9/2023][11:15:29]srv_man: Reg status changed: Not registered, but MT is currently searching a new operator to register to (2) -> Unknown (4)
+[20/9/2023][11:15:29]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[20/9/2023][11:15:30]srv_man: Reg status changed: Unknown (4) -> Registered, roaming (5)
+[20/9/2023][11:15:30]srv_man: Mobile codes changed: MCC=250, MNC=99
+[20/9/2023][11:15:30]srv_man: new settings, server id: 1, addr: nl.gpsgsm.org:20332, type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[20/9/2023][11:15:30]srv_man: new settings, server id: 2, addr: 10.77.60.254:33001, type: egts, conn_period: 1 minutes, user_terminal_addr: 100003
+[20/9/2023][11:15:30]srv_man: new settings, server id: 3, addr: , type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[20/9/2023][11:15:30]srv_man: new settings, server id: 4, addr: 89.189.183.233:5604, type: vega, conn_period: 0 minutes, user_terminal_addr: 0
+[20/9/2023][11:18:7]syscom_man: New SETTINGS received
+[20/9/2023][11:18:7]syscom_man: total settings: 660, warn size: 0, not found: 0, bad size: 0
+[20/9/2023][11:18:9]srv_man: new settings, server id: 2, addr: 10.77.60.254:33001, type: egts, conn_period: 0 minutes, user_terminal_addr: 100003
+[20/9/2023][11:18:10]srv_man: save backup settings: not support
+
+[21/9/2023][11:16:35]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[21/9/2023][11:16:35]no need to update the firmware
+[21/9/2023][11:16:35]check application image crc...
+[21/9/2023][11:16:36]application image crc is ok
+[21/9/2023][11:16:36]jump to application...
+[21/9/2023][11:16:39]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[21/9/2023][11:16:39]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[21/9/2023][11:16:39]syscom_man: Normal start
+[21/9/2023][11:16:40]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (313 ms)
+[21/9/2023][11:16:40]srv_man: waking up...
+[21/9/2023][11:16:40]!!!!!signal_man: system started after IWDG reset, reset_count=1!!!!!
+[21/9/2023][11:16:40]signal_man: LPWRRST: 0, SFTRST: 0, PORRST: 0, PINRST: 0, BORRST: 0
+[21/9/2023][11:16:41]signalman_subtask: ready to work...
+[21/9/2023][11:16:41]can_subtask: ready to work...
+[21/9/2023][11:16:41]CAN1: hw settings updated
+[21/9/2023][11:16:41]CAN2: hw settings updated
+[21/9/2023][11:16:41]CAN1 err: no error (0)
+[21/9/2023][11:16:42]CAN2 err: no error (0)
+[21/9/2023][11:16:45]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:17:11]srv_man: +CFUN: 1 err
+[21/9/2023][11:17:19]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:17:46]srv_man: +CFUN: 1 err
+[21/9/2023][11:17:54]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:18:20]srv_man: +CFUN: 1 err
+[21/9/2023][11:18:29]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:18:55]srv_man: +CFUN: 1 err
+[21/9/2023][11:19:3]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:19:29]srv_man: +CFUN: 1 err
+[21/9/2023][11:19:38]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:20:4]srv_man: +CFUN: 1 err
+[21/9/2023][11:20:12]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:20:39]srv_man: +CFUN: 1 err
+[21/9/2023][11:20:47]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:21:13]srv_man: +CFUN: 1 err
+[21/9/2023][11:21:21]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:21:48]srv_man: +CFUN: 1 err
+[21/9/2023][11:21:56]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:22:22]srv_man: +CFUN: 1 err
+[21/9/2023][11:22:31]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:22:57]srv_man: +CFUN: 1 err
+[21/9/2023][11:23:5]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:23:31]srv_man: +CFUN: 1 err
+[21/9/2023][11:23:40]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:24:6]srv_man: +CFUN: 1 err
+[21/9/2023][11:24:14]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:24:40]srv_man: +CFUN: 1 err
+[21/9/2023][11:24:49]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:25:15]srv_man: +CFUN: 1 err
+[21/9/2023][11:25:23]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:25:50]srv_man: +CFUN: 1 err
+[21/9/2023][11:25:58]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:26:24]srv_man: +CFUN: 1 err
+[21/9/2023][11:26:32]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:26:59]srv_man: +CFUN: 1 err
+[21/9/2023][11:27:7]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:27:33]srv_man: +CFUN: 1 err
+[21/9/2023][11:27:41]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:28:8]srv_man: +CFUN: 1 err
+[21/9/2023][11:28:16]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:28:42]srv_man: +CFUN: 1 err
+[21/9/2023][11:28:50]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:29:17]srv_man: +CFUN: 1 err
+[21/9/2023][11:29:25]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:29:51]srv_man: +CFUN: 1 err
+[21/9/2023][11:30:0]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:30:26]srv_man: +CFUN: 1 err
+[21/9/2023][11:30:34]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:31:0]srv_man: +CFUN: 1 err
+[21/9/2023][11:31:9]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:31:35]srv_man: +CFUN: 1 err
+[21/9/2023][11:31:43]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:32:10]srv_man: +CFUN: 1 err
+[21/9/2023][11:32:18]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:32:44]srv_man: +CFUN: 1 err
+[21/9/2023][11:32:53]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:33:19]srv_man: +CFUN: 1 err
+[21/9/2023][11:33:27]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:33:53]srv_man: +CFUN: 1 err
+[21/9/2023][11:34:2]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:34:28]srv_man: +CFUN: 1 err
+[21/9/2023][11:34:36]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:35:3]srv_man: +CFUN: 1 err
+[21/9/2023][11:35:11]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:35:37]srv_man: +CFUN: 1 err
+[21/9/2023][11:35:46]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:36:12]srv_man: +CFUN: 1 err
+[21/9/2023][11:36:20]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:36:46]srv_man: +CFUN: 1 err
+[21/9/2023][11:36:55]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:37:21]srv_man: +CFUN: 1 err
+[21/9/2023][11:37:29]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:37:55]srv_man: +CFUN: 1 err
+
+[21/9/2023][11:38:7]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[21/9/2023][11:38:8]no need to update the firmware
+[21/9/2023][11:38:8]check application image crc...
+[21/9/2023][11:38:8]application image crc is ok
+[21/9/2023][11:38:8]jump to application...
+[21/9/2023][11:38:11]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[21/9/2023][11:38:11]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[21/9/2023][11:38:11]syscom_man: Normal start
+[21/9/2023][11:38:12]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (318 ms)
+[21/9/2023][11:38:12]srv_man: waking up...
+[21/9/2023][11:38:12]!!!!!signal_man: system started after IWDG reset, reset_count=2!!!!!
+[21/9/2023][11:38:13]signal_man: LPWRRST: 0, SFTRST: 0, PORRST: 0, PINRST: 0, BORRST: 0
+[21/9/2023][11:38:13]signalman_subtask: ready to work...
+[21/9/2023][11:38:13]can_subtask: ready to work...
+[21/9/2023][11:38:13]CAN1 err: no error (0)
+[21/9/2023][11:38:13]CAN2 err: no error (0)
+[21/9/2023][11:38:14]CAN1: hw settings updated
+[21/9/2023][11:38:14]CAN2: hw settings updated
+[21/9/2023][11:38:14]CAN1 err: no error (0)
+[21/9/2023][11:38:14]CAN2 err: no error (0)
+[21/9/2023][11:38:17]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:38:43]srv_man: +CFUN: 1 err
+[21/9/2023][11:38:52]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:39:18]srv_man: +CFUN: 1 err
+[21/9/2023][11:39:26]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:39:52]srv_man: +CFUN: 1 err
+[21/9/2023][11:40:1]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:40:27]srv_man: +CFUN: 1 err
+[21/9/2023][11:40:36]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:41:2]srv_man: +CFUN: 1 err
+[21/9/2023][11:41:10]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:41:36]syscom_man: command gnss coold start
+[21/9/2023][11:41:36]gps_man: cold start cmd recv
+[21/9/2023][11:41:36]gps_man: Start
+[21/9/2023][11:41:36]srv_man: +CFUN: 1 err
+[21/9/2023][11:41:39]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:41:55]syscom_man: command restart
+
+[21/9/2023][11:41:59]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[21/9/2023][11:42:0]no need to update the firmware
+[21/9/2023][11:42:0]check application image crc...
+[21/9/2023][11:42:0]application image crc is ok
+[21/9/2023][11:42:0]jump to application...
+[21/9/2023][11:42:3]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[21/9/2023][11:42:3]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[21/9/2023][11:42:3]syscom_man: Normal start
+[21/9/2023][11:42:4]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (317 ms)
+[21/9/2023][11:42:4]srv_man: waking up...
+[21/9/2023][11:42:4]signal_man: LPWRRST: 0, SFTRST: 1, PORRST: 0, PINRST: 0, BORRST: 0
+[21/9/2023][11:42:5]signalman_subtask: ready to work...
+[21/9/2023][11:42:5]can_subtask: ready to work...
+[21/9/2023][11:42:5]CAN1: hw settings updated
+[21/9/2023][11:42:5]CAN2: hw settings updated
+[21/9/2023][11:42:5]CAN1 err: no error (0)
+[21/9/2023][11:42:5]CAN2 err: no error (0)
+[21/9/2023][11:42:9]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:42:35]srv_man: +CFUN: 1 err
+[21/9/2023][11:42:44]srv_man: turning on modem (sim id 0)...
+
+[21/9/2023][11:43:8]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[21/9/2023][11:43:8]no need to update the firmware
+[21/9/2023][11:43:8]check application image crc...
+[21/9/2023][11:43:8]application image crc is ok
+[21/9/2023][11:43:8]jump to application...
+[21/9/2023][11:43:11]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[21/9/2023][11:43:12]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[21/9/2023][11:43:12]syscom_man: Normal start
+[21/9/2023][11:43:12]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (317 ms)
+[21/9/2023][11:43:12]signal_man: LPWRRST: 0, SFTRST: 0, PORRST: 1, PINRST: 1, BORRST: 1
+[21/9/2023][11:43:12]srv_man: waking up...
+[21/9/2023][11:43:13]can_subtask: ready to work...
+[21/9/2023][11:43:13]signalman_subtask: ready to work...
+[21/9/2023][11:43:13]CAN1: hw settings updated
+[21/9/2023][11:43:13]CAN2: hw settings updated
+[21/9/2023][11:43:14]CAN1 err: no error (0)
+[21/9/2023][11:43:14]CAN2 err: no error (0)
+[21/9/2023][11:43:18]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:43:44]srv_man: +CFUN: 1 err
+[21/9/2023][11:43:52]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:44:19]srv_man: +CFUN: 1 err
+[21/9/2023][11:44:27]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:44:53]srv_man: +CFUN: 1 err
+[21/9/2023][11:45:2]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:45:28]srv_man: +CFUN: 1 err
+[21/9/2023][11:45:36]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:46:2]srv_man: +CFUN: 1 err
+[21/9/2023][11:46:11]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:46:37]srv_man: +CFUN: 1 err
+[21/9/2023][11:46:45]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:47:11]srv_man: +CFUN: 1 err
+[21/9/2023][11:47:20]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:47:46]srv_man: +CFUN: 1 err
+[21/9/2023][11:47:54]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:48:18]syscom_man: Critical ACC discharge, emergency sleep
+[21/9/2023][11:48:18]signal_man: ext pwr changed to "low"
+[21/9/2023][11:48:20]srv_man: +CFUN: 1 err
+
+[21/9/2023][11:48:28]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[21/9/2023][11:48:28]no need to update the firmware
+[21/9/2023][11:48:28]check application image crc...
+[21/9/2023][11:48:29]application image crc is ok
+[21/9/2023][11:48:29]jump to application...
+[21/9/2023][11:48:32]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[21/9/2023][11:48:32]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[21/9/2023][11:48:32]syscom_man: Normal start
+[21/9/2023][11:48:32]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (317 ms)
+[21/9/2023][11:48:33]srv_man: waking up...
+[21/9/2023][11:48:33]signal_man: LPWRRST: 0, SFTRST: 0, PORRST: 1, PINRST: 1, BORRST: 1
+[21/9/2023][11:48:33]signalman_subtask: ready to work...
+[21/9/2023][11:48:33]can_subtask: ready to work...
+[21/9/2023][11:48:34]CAN1: hw settings updated
+[21/9/2023][11:48:34]CAN2: hw settings updated
+[21/9/2023][11:48:34]CAN1 err: no error (0)
+[21/9/2023][11:48:34]CAN2 err: no error (0)
+[21/9/2023][11:48:38]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:49:23]srv_man: +CFUN: 1 err
+[21/9/2023][11:49:32]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:49:58]srv_man: +CFUN: 1 err
+[21/9/2023][11:50:6]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:50:32]srv_man: +CFUN: 1 err
+[21/9/2023][11:50:40]syscom_man: New SETTINGS received
+[21/9/2023][11:50:40]syscom_man: total settings: 660, warn size: 0, not found: 0, bad size: 0
+[21/9/2023][11:50:42]srv_man: turning on modem (sim id 0)...
+[21/9/2023][11:50:44]syscom_man: command restart
+
+[21/9/2023][11:50:48]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[21/9/2023][11:50:49]no need to update the firmware
+[21/9/2023][11:50:49]check application image crc...
+[21/9/2023][11:50:49]application image crc is ok
+[21/9/2023][11:50:49]jump to application...
+[21/9/2023][11:50:52]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[21/9/2023][11:50:52]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[21/9/2023][11:50:53]syscom_man: Normal start
+[21/9/2023][11:50:53]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (317 ms)
+[21/9/2023][11:50:53]signal_man: LPWRRST: 0, SFTRST: 1, PORRST: 0, PINRST: 0, BORRST: 0
+[21/9/2023][11:50:53]srv_man: waking up...
+[21/9/2023][11:50:54]can_subtask: ready to work...
+[21/9/2023][11:50:54]signalman_subtask: ready to work...
+[21/9/2023][11:50:54]CAN1: hw settings updated
+[21/9/2023][11:50:54]CAN2: hw settings updated
+[21/9/2023][11:50:54]CAN1 err: no error (0)
+[21/9/2023][11:50:54]CAN2 err: no error (0)
+[21/9/2023][11:50:58]srv_man: turning on modem (sim id 1)...
+[21/9/2023][11:51:25]srv_man: +CFUN: 1 err
+[21/9/2023][11:51:33]srv_man: turning on modem (sim id 1)...
+[21/9/2023][11:51:59]srv_man: +CFUN: 1 err
+[21/9/2023][11:52:8]srv_man: turning on modem (sim id 1)...
+[21/9/2023][11:52:34]srv_man: +CFUN: 1 err
+[21/9/2023][11:52:42]srv_man: turning on modem (sim id 1)...
+[21/9/2023][11:53:9]srv_man: +CFUN: 1 err
+[21/9/2023][11:53:17]srv_man: turning on modem (sim id 1)...
+[21/9/2023][11:53:43]srv_man: +CFUN: 1 err
+[21/9/2023][11:53:51]srv_man: turning on modem (sim id 1)...
+[21/9/2023][11:54:18]srv_man: +CFUN: 1 err
+[21/9/2023][11:54:26]srv_man: turning on modem (sim id 1)...
+[21/9/2023][11:54:52]srv_man: +CFUN: 1 err
+[21/9/2023][11:55:1]srv_man: turning on modem (sim id 1)...
+[21/9/2023][11:55:12]signal_man: ext pwr changed to "low"
+[21/9/2023][11:55:19]syscom_man: Critical ACC discharge, emergency sleep
+
+[21/9/2023][11:55:42]board hw: 0, bootloader version: Gorizont GD-1.0 5boot 0.1 (May 22 2023 16:10:29)
+[21/9/2023][11:55:43]no need to update the firmware
+[21/9/2023][11:55:43]check application image crc...
+[21/9/2023][11:55:43]application image crc is ok
+[21/9/2023][11:55:43]jump to application...
+[21/9/2023][11:55:46]syscom_man: total settings: 798, warn size: 0, not found: 0, bad size: 0
+[21/9/2023][11:55:46]syscom_man: System start, FW version Gorizont A-2.3 50.10b rc01.02 from Aug 16 2023 07:58:28
+[21/9/2023][11:55:47]syscom_man: Normal start
+[21/9/2023][11:55:47]syscom_man: LAT test: pass, addr_dublication: 0, not_found_addr: 0, range: ok (318 ms)
+[21/9/2023][11:55:47]srv_man: waking up...
+[21/9/2023][11:55:47]signal_man: LPWRRST: 0, SFTRST: 0, PORRST: 1, PINRST: 1, BORRST: 1
+[21/9/2023][11:55:47]syscom_man: Try to make call blocked by protection timer
+[21/9/2023][11:55:48]syscom_man: Scenario 0 send sms to authorized number 2 success
+[21/9/2023][11:55:48]signalman_subtask: ready to work...
+[21/9/2023][11:55:48]can_subtask: ready to work...
+[21/9/2023][11:55:48]signal_man: ext pwr changed to "low"
+[21/9/2023][11:55:48]CAN1 err: no error (0)
+[21/9/2023][11:55:48]CAN2 err: no error (0)
+[21/9/2023][11:55:49]CAN1: hw settings updated
+[21/9/2023][11:55:49]CAN2: hw settings updated
+[21/9/2023][11:55:49]CAN1 err: no error (0)
+[21/9/2023][11:55:49]CAN2 err: no error (0)
+[21/9/2023][11:55:52]srv_man: turning on modem (sim id 1)...
+[21/9/2023][11:55:58]syscom_man: Scenario 0 make call to authorized number 1
+[21/9/2023][11:55:58]syscom_man: Scenario 0 send sms to authorized number 2 success
+[21/9/2023][11:56:13]srv_man: modem ready
+[21/9/2023][11:56:14]srv_man: modem imei: 862798060731003
+[21/9/2023][11:56:14]srv_man: software: LE11B01SIM7600M22_CUS_AS 
+[21/9/2023][11:56:14]srv_man: iccid2: 8970199210584322517
+[21/9/2023][11:56:24]srv_man: COPS config ok at 534 ms
+[21/9/2023][11:56:25]srv_man: apn settings (sim id=1), "", "", "" applied
+[21/9/2023][11:56:25]srv_man: Reg status changed: Unknown (4) -> Registered, home network (1)
+[21/9/2023][11:56:25]srv_man: AcT changed: Unknown (1) -> GSM (0)
+[21/9/2023][11:56:25]srv_man: Mobile codes changed: MCC=250, MNC=99
+[21/9/2023][11:56:25]srv_man: call to +79418100025 by cmd
+[21/9/2023][11:56:27]srv_man: end call
+[21/9/2023][11:56:28]srv_man: send sms: "sos", phone: +79418100013
+[21/9/2023][11:56:31]srv_man: new settings, server id: 1, addr: nl.gpsgsm.org:20332, type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[21/9/2023][11:56:31]srv_man: new settings, server id: 2, addr: 10.77.60.254:33001, type: egts, conn_period: 0 minutes, user_terminal_addr: 100003
+[21/9/2023][11:56:31]srv_man: new settings, server id: 3, addr: , type: off, conn_period: 0 minutes, user_terminal_addr: 0
+[21/9/2023][11:56:31]srv_man: new settings, server id: 4, addr: 89.189.183.233:5604, type: vega, conn_period: 0 minutes, user_terminal_addr: 0
+[21/9/2023][11:56:32]srv_man: send sms: "sos", phone: +79418100013
+[21/9/2023][11:57:25]srv_man: AcT changed: GSM (0) -> E-UTRAN (7)
