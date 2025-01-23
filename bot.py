@@ -1,8 +1,8 @@
 import logging
 import os
 from dotenv import load_dotenv
-from telegram import Update
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
+# from telegram import Update
+# from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 from transformers import pipeline
 
 # Загрузка переменных окружения
@@ -22,11 +22,14 @@ except Exception as e:
 
 # Команда start
 def start(update: Update, context: CallbackContext) -> None:
-    update.message.reply_text('Привет! Я бот, как я могу помочь?')
+    if update.message:  # Проверка на наличие пользовательского ввода
+        update.message.reply_text('Привет! Я бот, как я могу помочь?')
+    else:
+        update.message.reply_text("Необходимо ввести сообщение.")
 
 # Генерация текста с использованием модели
 def generate_text(update: Update, context: CallbackContext) -> None:
-    if nlp_model:
+    if update.message and nlp_model:  # Проверка на наличие пользовательского ввода и модели
         try:
             user_input = update.message.text
             generated = nlp_model(user_input, max_length=50, num_return_sequences=1)
@@ -35,27 +38,39 @@ def generate_text(update: Update, context: CallbackContext) -> None:
             logger.error(f"Error generating text: {e}")
             update.message.reply_text("Произошла ошибка при обработке запроса.")
     else:
-        update.message.reply_text("Модель не доступна.")
+        update.message.reply_text("Необходимо ввести сообщение.")
 
 def main():
-    # Получение токена из переменных окружения
-    token = os.getenv("TELEGRAM_API_TOKEN")
-    if not token:
-        logger.error("Telegram token not found!")
-        return
+    # Проверка на наличие файла bot.py
+    if os.path.exists("bot.py"):
+        # Проверка на наличие файла .env
+        if os.path.exists(".env"):
+            # Проверка на наличие токена Telegram
+            token = os.getenv("TELEGRAM_API_TOKEN")
+            if token:
+                # Проверка на наличие модели
+                if nlp_model:
+                    # Запуск бота
+                    updater = Updater(token, use_context=True)
+                    dispatcher = updater.dispatcher
 
-    updater = Updater(token, use_context=True)
-    dispatcher = updater.dispatcher
+                    # Обработчики команд
+                    dispatcher.add_handler(CommandHandler("start", start))
 
-    # Обработчики команд
-    dispatcher.add_handler(CommandHandler("start", start))
+                    # Обработчик текста
+                    dispatcher.add_handler(MessageHandler(Filters.text & ~Filters.command, generate_text))
 
-    # Обработчик текста
-    dispatcher.add_handler(MessageHandler(Filters.text & ~Filters.command, generate_text))
-
-    # Запуск бота
-    updater.start_polling()
-    updater.idle()
+                    # Запуск бота
+                    updater.start_polling()
+                    updater.idle()
+                else:
+                    logger.error("Модель не доступна.")
+            else:
+                logger.error("Токен Telegram не найден.")
+        else:
+            logger.error(".env файл не найден.")
+    else:
+        logger.error("bot.py файл не найден.")
 
 if __name__ == '__main__':
     main()
